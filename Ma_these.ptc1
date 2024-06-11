@@ -1,0 +1,15 @@
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.6}Résultats du perceptron multicouche fonctionnel pour la prédiction de la durée de la tournée du problème VD}{\reset@font\ptcSSfont 230}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.7}Résultats du schéma d'apprentissage basée sur les indicateurs pour la prédiction de la durée de la tournée du problème VD}{\reset@font\ptcSSfont 230}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.8}Résultats du schéma d'apprentissage basée sur les indicateurs pour la prédiction du coût de production}{\reset@font\ptcSSfont 230}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.5}Conclusion}{\reset@font\ptcSfont 232}}
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {8}Conclusion générale}{\reset@font\ptcCfont 234}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.1}Récapitulatif de notre contribution}{\reset@font\ptcSfont 235}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.2}Perspective 1 : Le parcours du véhicule comme élément de la décision}{\reset@font\ptcSfont 235}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.1}Algorithme d'optimisation de la tournée}{\reset@font\ptcSSfont 235}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.2.2}Opérateurs de suppression et d'insertion}{\reset@font\ptcSSfont 237}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Opérateur de suppression}{\reset@font\ptcSSSfont 238}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Opérateur d'insertion}{\reset@font\ptcSSSfont 238}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Détails des instructions (\ref {generate}) et (\ref {RI}) de l'algorithme (\ref {Tour})}{\reset@font\ptcSSSfont 238}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8.3}Perspective 2 : La gestion des incertitudes sur les rendements }{\reset@font\ptcSfont 240}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.1}Définition de scénario}{\reset@font\ptcSSfont 240}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {8.3.2}Adaptation de SMEPC aux scénarios}{\reset@font\ptcSSfont 240}}

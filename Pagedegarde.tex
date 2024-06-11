@@ -1,0 +1,180 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Page de garde (Pagedegarde.tex)   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\makeatletter
+\def\@ecole{école}
+\newcommand{\ecole}[1]{
+  \def\@ecole{#1}
+}
+
+\def\@specialite{Spécialité}
+\newcommand{\specialite}[1]{
+  \def\@specialite{#1}
+}
+
+\def\@ED{\'{E}cole Doctorale}
+\newcommand{\ED}[1]{
+  \def\@ED{#1}
+}
+
+\def\@doctorat{Doctorat}
+\newcommand{\doctorat}[1]{
+  \def\@doctorat{#1}
+}
+
+\def\@adresse{Adresse}
+\newcommand{\adresse}[1]{
+  \def\@adresse{#1}
+}
+
+\def\@directeura{}{}{}
+\newcommand{\directeura}[3]{
+  \def\@directeura{#1,	& #2	& #3\\}
+}
+\def\@directeurb{}{}{}
+\newcommand{\directeurb}[3]{
+	\def\@directeurb{#1,	& #2	& #3\\}
+}
+\def\@directeurc{}{}{}
+\newcommand{\directeurc}[3]{
+	\def\@directeurc{#1,	& #2	& #3 \\}
+}
+\def\@directeurd{}{}{}
+\newcommand{\directeurd}[3]{
+	\def\@directeurd{#1,	& #2	& #3\\}
+}
+
+
+\def\@encadrant{encadrant}
+\newcommand{\encadrant}[1]{
+  \def\@encadrant{#1}
+}
+\def\@jurya{}{}{}
+\newcommand{\jurya}[3]{
+  \def\@jurya{#1,	& #2	& #3\\}
+}
+\def\@juryb{}{}{}
+\newcommand{\juryb}[3]{
+  \def\@juryb{#1,	& #2	& #3\\}
+}
+\def\@juryc{}{}{}
+\newcommand{\juryc}[3]{
+  \def\@juryc{#1,	& #2	& #3\\}
+}
+\def\@juryd{}{}{}
+\newcommand{\juryd}[3]{
+  \def\@juryd{#1,	& #2	& #3\\}
+}
+\def\@jurye{}{}{}
+\newcommand{\jurye}[3]{
+  \def\@jurye{#1,	& #2	& #3\\}
+}
+\def\@juryf{}{}{}
+\newcommand{\juryf}[3]{
+  \def\@juryf{#1,	& #2	& #3\\}
+}
+\def\@juryg{}{}{}
+\newcommand{\juryg}[3]{
+  \def\@juryg{#1,	& #2	& #3\\}
+}
+\def\@juryh{}{}{}
+\newcommand{\juryh}[3]{
+  \def\@juryh{#1,	& #2	& #3\\}
+}
+\def\@juryi{}{}{}
+\newcommand{\juryi}[3]{
+  \def\@juryi{#1,	& #2	& #3\\}
+}
+\makeatother
+
+
+
+\newcommand\EtiquetteThese{%
+	\put(0,0){%
+		\parbox[t][\paperheight]{\paperwidth}{%
+			\hfill
+			\colorbox{blue}{		
+				\begin{minipage}[b]{3em}
+					\centering\Huge\textcolor{white}{T\\H\\E\\S\\E\\}
+					\vspace{0.2cm}
+				\end{minipage}
+			}
+		}
+	}
+}
+
+\makeatletter
+\newcommand{\pagedegarde}{
+\newgeometry{top=2.5cm, bottom=1cm, left=2cm, right=1cm}
+\AddToShipoutPicture*{\BackgroundPic}
+\AddToShipoutPicture*{\EtiquetteThese}
+  \begin{titlepage}
+  \centering
+      \includegraphics[width=0.6\textwidth]{logospi.png}
+      \hfill
+      \includegraphics[width=0.2\textwidth]{limos.png}\\
+    \vspace{1cm}
+      {\Large \@ED}\\
+    \vspace{1cm}
+      {\huge 
+      	{\bfseries \@doctorat}\\
+    \vspace{0.5cm}
+      	TH\`{E}SE}\\
+    \vspace{1cm}
+   		{\bfseries pour obtenir le grade de docteur d\'{e}livr\'{e} par}\\
+    \vspace{1cm}
+    	{\huge\bfseries \@ecole}\\
+    \vspace{0.5cm}
+    	{\Large{\bfseries Sp\'{e}cialit\'{e} doctorale ``\@specialite''}}\\
+    \vspace{1cm}
+    	\textit{pr\'{e}sent\'{e}e et soutenue publiquement par}\\
+    \vspace{0.5cm}
+    	{\Large {\bfseries \@author}} \\
+    \vspace{0.5cm}
+    	le \@date \\
+    \vfill
+       {\LARGE \color[rgb]{0,0,1} \bfseries{\@title}} \\
+    \vfill
+	\begin{tabular}{>{\bfseries}lll}
+		\large Rapporteurs :\\
+		\@juryc
+		\@juryd
+		\\
+		%\@jurye
+		%\@juryf
+		%\@juryg
+		%\@juryh
+		%\@juryi
+	%%\end{tabular}
+	%%\vfill
+	%%\begin{tabular}{>{\bfseries}lll}
+		\large Examinateurs :\\
+		\@jurya%{J1&J2&J3} \rowspace
+		\@juryb%{J1'&J2'&J3'}
+		\\
+		%\@jurye
+		%\@juryf
+		%\@juryg
+		%\@juryh
+		%\@juryi
+	%%\end{tabular}
+	%%\vfill
+	  %%  \begin{tabular}{>{\bfseries}lll}
+		\large Directeurs de thèse :\\
+		\@directeura
+		\@directeurb
+		\@directeurc
+		\@directeurd
+	\end{tabular}
+	\vfill
+	\@adresse
+  \end{titlepage}
+
+
+
+
+\restoregeometry  
+}

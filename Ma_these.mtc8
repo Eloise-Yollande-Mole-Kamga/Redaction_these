@@ -1,0 +1,33 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Introduction}{\reset@font\mtcSfont 117}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Un algorithme de programmation dynamique pour SMEPC : DPS\_SMEPC}{\reset@font\mtcSfont 117}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.1} Espace temps et états}{\reset@font\mtcSSfont 117}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Etat initial et Etats finaux}{\reset@font\mtcSSSfont 118}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.2}Variables de décision}{\reset@font\mtcSSfont 119}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.3} Pré-conditions, transitions et coûts liés aux décisions et aux états}{\reset@font\mtcSSfont 120}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.4}Mise en œuvre algorithmique}{\reset@font\mtcSSfont 127}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Equations de Bellman}{\reset@font\mtcSSSfont 127}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Stratégie d'exploration}{\reset@font\mtcSSSfont 128}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Algorithme général du DPS\_SMEPC}{\reset@font\mtcSSSfont 128}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Un schéma d'approximation polynomial (PTAS) : filtrage par arrondi (Rounding)}{\reset@font\mtcSfont 129}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Mécanismes de filtrage}{\reset@font\mtcSfont 131}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.1}Mécanismes de filtrage par relations de dominance }{\reset@font\mtcSSfont 132}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.2}Mécanismes de filtrage logique}{\reset@font\mtcSSfont 132}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.3}Mécanismes de filtrage par estimation optimiste}{\reset@font\mtcSSfont 134}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Borne supérieure calculée par une adaptation gloutonne du DPS\_SMEPC}{\reset@font\mtcSSSfont 137}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.4}Mécanismes de filtrage heuristique}{\reset@font\mtcSSfont 137}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Description d'une heuristique rapide $He$ pour résoudre SMEPC}{\reset@font\mtcSfont 139}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.1}Le graphe}{\reset@font\mtcSSfont 140}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.2}Les poids sur les arcs}{\reset@font\mtcSSfont 140}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.3}Exemple}{\reset@font\mtcSSfont 141}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.6}Expérimentations numériques}{\reset@font\mtcSfont 142}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.6.1}Objectifs et contexte technique}{\reset@font\mtcSSfont 142}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.6.2}Instances}{\reset@font\mtcSSfont 142}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.6.3}Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC}{\reset@font\mtcSSfont 146}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC : les instances du paquet INST\_VAR}{\reset@font\mtcSSSfont 148}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC : les instances du paquet INST\_CTE}{\reset@font\mtcSSSfont 149}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.6.4}Impact des mécanismes de filtrage du DPS\_SMEPC}{\reset@font\mtcSSfont 150}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Impact des mécanismes de filtrage du DPS\_SMEPC : les instances du paquet INST\_VAR}{\reset@font\mtcSSSfont 152}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Impact des mécanismes de filtrage du DPS\_SMEPC : les instances du paquet INST\_CTE}{\reset@font\mtcSSSfont 154}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.7}Conclusion}{\reset@font\mtcSfont 155}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.8}Annexes}{\reset@font\mtcSfont 155}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.8.1}Démonstration du théorème \ref {approx_scheme_pol}}{\reset@font\mtcSSfont 155}}

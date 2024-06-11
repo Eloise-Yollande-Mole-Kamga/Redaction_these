@@ -1,0 +1,68 @@
+\babel@toc {french}{}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction générale}{16}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Comparaison entre les procédés de fabrication de l'hydrogène.}}{20}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{État de l'art du problème SMEPC}{28}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Récapitulatif de l'état de l'art du problème SMEPC. }}{43}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Récapitulatif de l'état de l'art du problème SMEPC (suite). }}{44}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Etat de l'art sur les méthodes }{45}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Programmation linéaire en nombres entiers mixtes de SMEPC}{77}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Entrées du problème SMEPC}}{84}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Linéarisation des contraintes}}{89}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Caractéristiques des instances du paquet INST\_VAR}}{97}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Caractéristiques des instances du paquet INST\_CTE}}{98}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Caractéristiques des solutions des instances du paquet INST\_VAR}}{99}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Caractéristiques des solutions des instances du paquet INST\_CTE}}{100}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Résultats de $MILP_{SMEPC}$ sur INST\_VAR. Le temps limite est 3 heures sur 8 \textit {threads}}}{101}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Résultats de $MILP_{SMEPC}$ sur INST\_CTE. Le temps limite est 3 heures sur 8 \textit {threads}}}{102}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Impact des contraintes STC sur les résultats de \textit {$RMILP_{SMEPC}$} sur INST\_VAR}}{104}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Impact des contraintes EC sur les résultats de \textit {$RMILP_{SMEPC}$} sur INST\_VAR}}{105}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Impact des contraintes STC sur les résultats de \textit {$RMILP_{SMEPC}$} sur INST\_CTE}}{106}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Impact des contraintes EC sur les résultats de \textit {$RMILP_{SMEPC}$} sur INST\_CTE}}{106}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Résultats de $MILP_{SMEPC}$ enrichi de STC sur INST\_VAR. Le temps limite est 1 heure en mode \textit {single-threads}}}{108}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Résultats de $MILP_{SMEPC}$ enrichi de EC sur INST\_VAR. Le temps limite est 1 heure en mode \textit {single-threads}}}{109}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Résultats de $MILP_{SMEPC}$ enrichi de STC sur INST\_CTE. Le temps limite est 1 heure en mode \textit {single-threads}}}{110}%
+\contentsline {table}{\numberline {4.16}{\ignorespaces Résultats de $MILP_{SMEPC}$ enrichi de EC sur INST\_CTE. Le temps limite est 1 heure en mode \textit {single-threads}}}{110}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Schéma de programmation dynamique pour résoudre SMEPC}{115}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Liste des pré-conditions du DPS\_SMEPC}}{125}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Simulation de l'évolution du temps DPS}}{126}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Les instances du paquet INST\_VAR : recherche d'une borne supérieure de qualité pour le DPS\_SMEPC.}}{148}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Les instances du paquet INST\_CTE : recherche d'une borne supérieure de qualité pour le DPS\_SMEPC.}}{149}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Les instances du paquet INST\_VAR : impact des mécanismes de filtrage du DPS\_SMEPC.}}{153}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Les instances du paquet INST\_CTE : impact des mécanismes de filtrage du DPS\_SMEPC.}}{154}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Schéma collaboratif pour résoudre SMEPC}{158}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Entrées du problème VD}}{161}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Une instance du modèle VD}}{162}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces La stratégie de recharge optimale de l'instance du modèle VD du tableau (\ref {ex_rech_1_inst})}}{162}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Une instance du modèle VD}}{163}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces La stratégie de recharge optimale de l'instance du modèle VD du tableau (\ref {ex_rech_2_inst})}}{163}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Entrées du problème PM}}{164}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces La stratégie de recharge primaire de l'instance du modèle VD du tableau (\ref {ex_rech_1_inst})}}{170}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces La stratégie de recharge primaire de l'instance du modèle VD du tableau (\ref {ex_rech_2_inst})}}{170}%
+\contentsline {table}{\numberline {6.9}{\ignorespaces La stratégie de recharge réduite de l'instance du modèle VD du tableau (\ref {ex_rech_1_inst})}}{171}%
+\contentsline {table}{\numberline {6.10}{\ignorespaces La stratégie de recharge réduite de l'instance du modèle VD du tableau (\ref {ex_rech_2_inst})}}{171}%
+\contentsline {table}{\numberline {6.11}{\ignorespaces Une stratégie de recharge réduite}}{174}%
+\contentsline {table}{\numberline {6.12}{\ignorespaces Les instances du paquet INST\_VAR : Comparaison des gaps et du temps CPU du Pipe-Line VD\_PM.}}{190}%
+\contentsline {table}{\numberline {6.13}{\ignorespaces Les instances du paquet INST\_VAR : impact des mécanismes de filtrage.}}{191}%
+\contentsline {table}{\numberline {6.14}{\ignorespaces Les instances du paquet INST\_CTE : comparaison des gaps et du temps CPU du Pipe-Line VD\_PM.}}{192}%
+\contentsline {table}{\numberline {6.15}{\ignorespaces Les instances du paquet INST\_CTE : impact des mécanismes de filtrage.}}{193}%
+\contentsline {table}{\numberline {6.16}{\ignorespaces Les instances du paquet INST\_VAR : Comparaison des deux bornes supérieures utilisées pour le filtrage du DPS\_SMEPC.}}{195}%
+\contentsline {table}{\numberline {6.17}{\ignorespaces Les instances du paquet INST\_CTE : Comparaison des deux bornes supérieures utilisées pour le filtrage du DPS\_SMEPC.}}{196}%
+\contentsline {table}{\numberline {6.18}{\ignorespaces Les instances du paquet INST\_VAR : impact des mécanismes de filtrage du DPS\_SMEPC.}}{197}%
+\contentsline {table}{\numberline {6.19}{\ignorespaces Les instances du paquet INST\_CTE : impact des mécanismes de filtrage du DPS\_SMEPC.}}{198}%
+\contentsline {table}{\numberline {6.20}{\ignorespaces Entrées du \textit {Useful VD\_Subgraph}}}{203}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Estimation des coûts de production par apprentissage}{204}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Glossaire}}{206}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Entrées utilisées pour construire nos réseaux de neurones }}{207}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Apprentissage du coût de production : Moyenne de la valeur absolue des gaps des données de test et d'apprentissage }}{231}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Apprentissage du numéro de période de la dernière recharge : Moyenne de la valeur absolue des gaps des données de test et d'apprentissage }}{231}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Comparaison des fonctions d'activation du réseau SIMPLE\_PERIODE}}{233}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion générale}{244}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Synthèse de quelques variants du problème SMEPC }}{247}%

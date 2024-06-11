@@ -1,0 +1,208 @@
+\babel@toc {french}{}
+\contentsline {starchapter}{Liste des algorithmes}{10}%
+\contentsline {starchapter}{Table des figures}{13}%
+\contentsline {starchapter}{Liste des tableaux}{15}%
+\contentsline {chapter}{\numberline {1}Introduction générale}{16}%
+\contentsline {section}{\numberline {1.1}Contexte et motivations}{17}%
+\contentsline {subsection}{\numberline {1.1.1}Contexte de travail}{17}%
+\contentsline {subsection}{\numberline {1.1.2}Hydrogène}{18}%
+\contentsline {subsection}{\numberline {1.1.3}Véhicules à hydrogène}{21}%
+\contentsline {subsection}{\numberline {1.1.4}Liste de projets}{23}%
+\contentsline {section}{\numberline {1.2}Objectifs de la thèse}{25}%
+\contentsline {section}{\numberline {1.3}Plan de la thèse}{26}%
+\contentsline {chapter}{\numberline {2}État de l'art du problème SMEPC}{28}%
+\contentsline {section}{\numberline {2.1}Introduction}{29}%
+\contentsline {section}{\numberline {2.2}Recherche Opérationelle et Énergie }{29}%
+\contentsline {subsection}{\numberline {2.2.1}Planification des tournées de véhicules et alimentation des véhicules}{30}%
+\contentsline {subsubsection}{GVRP : \textit {Green Vehicle Routing Problem}}{30}%
+\contentsline {subsubsection}{PRP : \textit {Pollution-Routing Problem}}{33}%
+\contentsline {subsubsection}{EVRP : \textit {Electric Vehicle Routing Problem}}{35}%
+\contentsline {subsubsection}{HVRP : \textit {Hydrogen Vehicle Routing Problem}}{37}%
+\contentsline {subsubsection}{RVRP : \textit {Recharging Vehicle Routing Problem}}{38}%
+\contentsline {subsection}{\numberline {2.2.2}Planification de la production}{38}%
+\contentsline {section}{\numberline {2.3}Problématique générale de synchronisation}{40}%
+\contentsline {section}{\numberline {2.4}Conclusion}{42}%
+\contentsline {chapter}{\numberline {3}Etat de l'art sur les méthodes }{45}%
+\contentsline {section}{\numberline {3.1}Introduction}{46}%
+\contentsline {section}{\numberline {3.2}Généralités sur la modélisation}{46}%
+\contentsline {subsection}{\numberline {3.2.1}Généralités sur la programmation linéaire en nombres entiers}{46}%
+\contentsline {subsection}{\numberline {3.2.2}Généralités sur la technique de \textit {Branch-And-Cut (B\&C)}}{47}%
+\contentsline {section}{\numberline {3.3}Programmation dynamique}{47}%
+\contentsline {subsection}{\numberline {3.3.1}Cadre général}{48}%
+\contentsline {subsection}{\numberline {3.3.2}Exemples Simples}{55}%
+\contentsline {subsubsection}{Le problème du sac à dos : Principe des FPTAS}{55}%
+\contentsline {subsubsection}{Le \textit {Split}}{58}%
+\contentsline {subsection}{\numberline {3.3.3}Le Cas Stochastique}{58}%
+\contentsline {subsubsection}{Un Premier Niveau de Difficulté : Intégrer dans le Modèle le Comportement du Système Réel face aux aléas}{59}%
+\contentsline {subsubsection}{Un deuxième Niveau de Difficulté : La Problématique des Corrélations}{60}%
+\contentsline {subsection}{\numberline {3.3.4}Le Cas Cyclique}{61}%
+\contentsline {section}{\numberline {3.4}Apprentissage automatique}{63}%
+\contentsline {subsection}{\numberline {3.4.1}La problématique générale de l'apprentissage}{64}%
+\contentsline {subsection}{\numberline {3.4.2}Les réseaux de neurones artificiels}{64}%
+\contentsline {subsubsection}{Description générale et représentation graphique d'un réseau de neurones}{65}%
+\contentsline {subsubsection}{Description du fonctionnement des réseaux de neurones}{67}%
+\contentsline {subsubsection}{Difficultés liées à la mise en œuvre de réseau de neurones}{67}%
+\contentsline {subsection}{\numberline {3.4.3}L'API Keras de Tensorflow Keras}{68}%
+\contentsline {subsubsection}{Les couches et les poids dans tf.keras}{68}%
+\contentsline {subsubsection}{Relier deux couches de neurones de manière partielle}{72}%
+\contentsline {subsubsection}{Fixer des poids dépendant des instances}{75}%
+\contentsline {section}{\numberline {3.5}Conclusion}{76}%
+\contentsline {chapter}{\numberline {4}Programmation linéaire en nombres entiers mixtes de SMEPC}{77}%
+\contentsline {section}{\numberline {4.1}Introduction}{79}%
+\contentsline {section}{\numberline {4.2}Le problème SMEPC : \textit {Synchronous Management of Energy Production and Consumption}}{79}%
+\contentsline {section}{\numberline {4.3}Formulation mathématique}{85}%
+\contentsline {subsection}{\numberline {4.3.1}Variables}{85}%
+\contentsline {subsection}{\numberline {4.3.2}Fonction objectif}{86}%
+\contentsline {subsection}{\numberline {4.3.3}Contraintes du problème PM}{86}%
+\contentsline {subsection}{\numberline {4.3.4}Contraintes du problème VD}{87}%
+\contentsline {subsection}{\numberline {4.3.5}Contraintes de synchronisation}{88}%
+\contentsline {section}{\numberline {4.4}Formulation par programmation linéaire en variables mixtes : \textit {$MILP_{SMEPC}$}}{88}%
+\contentsline {section}{\numberline {4.5}Relaxation linéaire de la formulation \textit {$MILP_{SMEPC}$} et contraintes additionnelles STC et EC : \textit {$RMILP_{SMEPC}$} }{89}%
+\contentsline {subsection}{\numberline {4.5.1}Contraintes additionnelles EC et STC}{90}%
+\contentsline {subsubsection}{Contraintes STC : \textit {Simple Time Constraints}}{91}%
+\contentsline {subsubsection}{Contraintes EC : \textit {Energy Constraints}}{91}%
+\contentsline {section}{\numberline {4.6}Complexité du modèle SMEPC}{93}%
+\contentsline {section}{\numberline {4.7}Expérimentations numériques}{93}%
+\contentsline {subsection}{\numberline {4.7.1}Objectifs et contexte technique}{93}%
+\contentsline {subsection}{\numberline {4.7.2}Procédés de génération d'instances du SMEPC}{93}%
+\contentsline {subsubsection}{Génération du paquet d'instances INST\_VAR}{95}%
+\contentsline {subsubsection}{Génération du paquet d'instances INST\_CTE}{95}%
+\contentsline {subsection}{\numberline {4.7.3}Caractéristiques des instances}{96}%
+\contentsline {subsubsection}{Caractéristiques des instances du paquet INST\_VAR}{97}%
+\contentsline {subsubsection}{Caractéristiques des instances du paquet INST\_CTE}{97}%
+\contentsline {subsection}{\numberline {4.7.4}Caractéristiques des solutions}{98}%
+\contentsline {subsubsection}{Caractéristiques des solutions des instances du paquet INST\_VAR}{99}%
+\contentsline {subsubsection}{Caractéristiques des solutions des instances du paquet INST\_CTE}{99}%
+\contentsline {subsection}{\numberline {4.7.5}Résultats du modèle $MILP_{SMEPC}$ avec temps limite de 3 heures et 8 \textit {threads}}{100}%
+\contentsline {subsubsection}{Résultats du modèle $MILP_{SMEPC}$ pour les instances du paquet INST\_VAR}{100}%
+\contentsline {subsubsection}{Résultats du modèle $MILP_{SMEPC}$ pour les instances du paquet INST\_CTE}{101}%
+\contentsline {subsection}{\numberline {4.7.6}Résultats des modèles $RMILP_{SMEPC}$ et $MILP_{SMEPC}$ avec comme temps limite 1 heure sur 1 thread}{102}%
+\contentsline {subsubsection}{Résultats du \textit {$RMILP_{SMEPC}$} avec comme temps limite 1 heure sur 1 thread }{102}%
+\contentsline {subsubsection}{Résultats du $MILP_{SMEPC}$ avec comme temps limite 1 heure sur 1 thread}{107}%
+\contentsline {subsubsection}{Observations et discussions}{111}%
+\contentsline {section}{\numberline {4.8}Conclusion}{112}%
+\contentsline {section}{\numberline {4.9}Annexes}{112}%
+\contentsline {subsection}{\numberline {4.9.1}Démonstration du théorème \ref {sol_real_same_cout}}{112}%
+\contentsline {subsection}{\numberline {4.9.2}Démonstration du lemme \ref {rmilp_faisable}}{113}%
+\contentsline {subsection}{\numberline {4.9.3}Démonstration du théorème \ref {smepc_difficilee}}{113}%
+\contentsline {chapter}{\numberline {5}Schéma de programmation dynamique pour résoudre SMEPC}{115}%
+\contentsline {section}{\numberline {5.1}Introduction}{117}%
+\contentsline {section}{\numberline {5.2}Un algorithme de programmation dynamique pour SMEPC : DPS\_SMEPC}{117}%
+\contentsline {subsection}{\numberline {5.2.1} Espace temps et états}{117}%
+\contentsline {subsubsection}{Etat initial et Etats finaux}{118}%
+\contentsline {subsection}{\numberline {5.2.2}Variables de décision}{119}%
+\contentsline {subsection}{\numberline {5.2.3} Pré-conditions, transitions et coûts liés aux décisions et aux états}{120}%
+\contentsline {subsection}{\numberline {5.2.4}Mise en œuvre algorithmique}{127}%
+\contentsline {subsubsection}{Equations de Bellman}{127}%
+\contentsline {subsubsection}{Stratégie d'exploration}{128}%
+\contentsline {subsubsection}{Algorithme général du DPS\_SMEPC}{128}%
+\contentsline {section}{\numberline {5.3}Un schéma d'approximation polynomial (PTAS) : filtrage par arrondi (Rounding)}{129}%
+\contentsline {section}{\numberline {5.4}Mécanismes de filtrage}{131}%
+\contentsline {subsection}{\numberline {5.4.1}Mécanismes de filtrage par relations de dominance }{132}%
+\contentsline {subsection}{\numberline {5.4.2}Mécanismes de filtrage logique}{132}%
+\contentsline {subsection}{\numberline {5.4.3}Mécanismes de filtrage par estimation optimiste}{134}%
+\contentsline {subsubsection}{Borne supérieure calculée par une adaptation gloutonne du DPS\_SMEPC}{137}%
+\contentsline {subsection}{\numberline {5.4.4}Mécanismes de filtrage heuristique}{137}%
+\contentsline {section}{\numberline {5.5}Description d'une heuristique rapide $He$ pour résoudre SMEPC}{139}%
+\contentsline {subsection}{\numberline {5.5.1}Le graphe}{140}%
+\contentsline {subsection}{\numberline {5.5.2}Les poids sur les arcs}{140}%
+\contentsline {subsection}{\numberline {5.5.3}Exemple}{141}%
+\contentsline {section}{\numberline {5.6}Expérimentations numériques}{142}%
+\contentsline {subsection}{\numberline {5.6.1}Objectifs et contexte technique}{142}%
+\contentsline {subsection}{\numberline {5.6.2}Instances}{142}%
+\contentsline {subsection}{\numberline {5.6.3}Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC}{146}%
+\contentsline {subsubsection}{Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC : les instances du paquet INST\_VAR}{148}%
+\contentsline {subsubsection}{Recherche d'une borne supérieure de qualité pour le DPS\_SMEPC : les instances du paquet INST\_CTE}{149}%
+\contentsline {subsection}{\numberline {5.6.4}Impact des mécanismes de filtrage du DPS\_SMEPC}{150}%
+\contentsline {subsubsection}{Impact des mécanismes de filtrage du DPS\_SMEPC : les instances du paquet INST\_VAR}{152}%
+\contentsline {subsubsection}{Impact des mécanismes de filtrage du DPS\_SMEPC : les instances du paquet INST\_CTE}{154}%
+\contentsline {section}{\numberline {5.7}Conclusion}{155}%
+\contentsline {section}{\numberline {5.8}Annexes}{155}%
+\contentsline {subsection}{\numberline {5.8.1}Démonstration du théorème \ref {approx_scheme_pol}}{155}%
+\contentsline {chapter}{\numberline {6}Schéma collaboratif pour résoudre SMEPC}{158}%
+\contentsline {section}{\numberline {6.1}Motivations}{160}%
+\contentsline {section}{\numberline {6.2}Le problème du véhicule : \textit {Vehicle-Driver} (VD)}{160}%
+\contentsline {subsection}{\numberline {6.2.1}Le modèle VD}{161}%
+\contentsline {subsection}{\numberline {6.2.2}Complexité du modèle VD avec $L_j$ fixe}{163}%
+\contentsline {subsection}{\numberline {6.2.3}Complexité du modèle VD avec $L_j$ variable}{163}%
+\contentsline {section}{\numberline {6.3}Le problème de production : \textit {Production-Manager} (PM)}{163}%
+\contentsline {subsection}{\numberline {6.3.1}Le modèle PM}{163}%
+\contentsline {subsection}{\numberline {6.3.2}Complexité du modèle PM}{165}%
+\contentsline {section}{\numberline {6.4}L'algorithme de programmation dynamique DPS\_VD}{165}%
+\contentsline {subsection}{\numberline {6.4.1}Espace temps et états au sens de la programmation dynamique}{166}%
+\contentsline {subsubsection}{Etat initial et Etats finaux}{166}%
+\contentsline {subsection}{\numberline {6.4.2}Variable de décision}{166}%
+\contentsline {subsection}{\numberline {6.4.3}Pré-conditions, transitions et coûts liés aux décisions et aux transitions}{167}%
+\contentsline {subsection}{\numberline {6.4.4}Mise en œuvre algorithmique du DPS\_VD}{167}%
+\contentsline {subsubsection}{Equations de Bellman}{167}%
+\contentsline {subsubsection}{Stratégie d'exploration}{167}%
+\contentsline {subsubsection}{Algorithme DPS\_VD}{167}%
+\contentsline {subsection}{\numberline {6.4.5}Calcul de la stratégie de recharge primaire et de la stratégie de recharge réduite}{168}%
+\contentsline {subsection}{\numberline {6.4.6}Calcul des bornes inférieures du temps et de l'énergie du DPS\_SMEPC}{171}%
+\contentsline {section}{\numberline {6.5}L'algorithme de programmation dynamique DPS\_PM}{172}%
+\contentsline {subsection}{\numberline {6.5.1}Espace temps et états au sens de la programmation dynamique}{172}%
+\contentsline {subsubsection}{Etat initial et Etats finaux}{173}%
+\contentsline {subsection}{\numberline {6.5.2}Variables de décision}{173}%
+\contentsline {subsection}{\numberline {6.5.3}Pré-conditions, transitions et coûts liés aux décisions et aux transitions}{173}%
+\contentsline {subsection}{\numberline {6.5.4}Mise en œuvre algorithmique du DPS\_PM}{174}%
+\contentsline {subsubsection}{Equations de Bellman }{175}%
+\contentsline {subsubsection}{Stratégie d'exploration }{175}%
+\contentsline {subsubsection}{Algorithme DPS\_PM}{175}%
+\contentsline {subsection}{\numberline {6.5.5}Mécanismes de filtrage du DPS\_PM}{175}%
+\contentsline {subsubsection}{Mécanismes de filtrage par arrondi}{178}%
+\contentsline {subsubsection}{Mécanismes de filtrage par relations de dominance}{178}%
+\contentsline {subsubsection}{Mécanismes de filtrage logique}{178}%
+\contentsline {subsubsection}{Mécanismes de filtrage par estimation optimiste}{178}%
+\contentsline {subsubsection}{Mécanismes de filtrage heuristique}{181}%
+\contentsline {section}{\numberline {6.6}Collaboration Demandeur/Producteur pour SMEPC : le schéma Pipe-line VD\_PM}{181}%
+\contentsline {section}{\numberline {6.7}Expérimentations numériques}{185}%
+\contentsline {subsection}{\numberline {6.7.1}Objectifs et contexte technique}{185}%
+\contentsline {subsection}{\numberline {6.7.2}Instances}{185}%
+\contentsline {subsection}{\numberline {6.7.3}Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC}{187}%
+\contentsline {subsubsection}{Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC : les instances du paquet INST\_VAR}{189}%
+\contentsline {subsubsection}{Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC : les instances du paquet INST\_CTE}{191}%
+\contentsline {subsection}{\numberline {6.7.4}Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC}{194}%
+\contentsline {subsubsection}{Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC : les instances du paquet INST\_VAR}{196}%
+\contentsline {subsubsection}{Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC : les instances du paquet INST\_CTE}{197}%
+\contentsline {section}{\numberline {6.8}Conclusion}{198}%
+\contentsline {section}{\numberline {6.9}Annexes}{199}%
+\contentsline {subsection}{\numberline {6.9.1}Démonstration du théorème \ref {vd_ndhard}}{199}%
+\contentsline {subsection}{\numberline {6.9.2}Démonstration du théorème \ref {VD_polynomial}}{201}%
+\contentsline {chapter}{\numberline {7}Estimation des coûts de production par apprentissage}{204}%
+\contentsline {section}{\numberline {7.1}Introduction}{206}%
+\contentsline {section}{\numberline {7.2}Réseaux de neurones dont les entrées sont des données brutes}{209}%
+\contentsline {subsection}{\numberline {7.2.1}Construction des réseaux \textbf {SIMPLE\_TYPE} et \textbf {SIMPLE\_PERIODE} pour la prédiction du coût de production}{209}%
+\contentsline {subsubsection}{Description des entrées des réseaux de neurones \textbf {SIMPLE\_}}{210}%
+\contentsline {subsubsection}{Description des architectures des réseaux de neurones \textbf {SIMPLE\_}}{210}%
+\contentsline {subsubsection}{Description des sorties des réseaux de neurones \textbf {SIMPLE\_}}{212}%
+\contentsline {subsection}{\numberline {7.2.2}Construction du réseau \textbf {MIXTE} pour la prédiction du coût de production et du numéro de période de la dernière recharge}{212}%
+\contentsline {subsubsection}{Description des entrées du réseau de neurones \textbf {MIXTE}}{212}%
+\contentsline {subsubsection}{Description de l'architecture du réseau de neurones \textbf {MIXTE}}{212}%
+\contentsline {subsubsection}{Description des sorties du réseau de neurones \textbf {MIXTE}}{215}%
+\contentsline {subsection}{\numberline {7.2.3}Cas des instances aux nombres de périodes hétérogènes}{215}%
+\contentsline {section}{\numberline {7.3}Réseaux de neurones dont les entrées sont des indicateurs}{216}%
+\contentsline {subsection}{\numberline {7.3.1}Indicateurs}{216}%
+\contentsline {subsection}{\numberline {7.3.2}Construction du réseau \textbf {INDIC\_TEMPS} pour la prédiction du numéro de période de la dernière recharge}{219}%
+\contentsline {subsubsection}{Description des entrées du réseau de neurones \textbf {INDIC\_TEMPS}}{219}%
+\contentsline {subsubsection}{Description de l'architecture du réseau de neurones \textbf {INDIC\_TEMPS}}{220}%
+\contentsline {subsubsection}{Description des sorties du réseau de neurones \textbf {INDIC\_TEMPS}}{221}%
+\contentsline {subsection}{\numberline {7.3.3}Construction du réseau \textbf {INDIC\_COUT} pour la prédiction du coût de production}{221}%
+\contentsline {subsubsection}{Description des entrées du réseau de neurones \textbf {INDIC\_COUT}}{221}%
+\contentsline {subsubsection}{Description de l'architecture du réseau de neurones \textbf {INDIC\_COUT}}{222}%
+\contentsline {subsubsection}{Description des sorties du réseau de neurones \textbf {INDIC\_COUT}}{225}%
+\contentsline {section}{\numberline {7.4}Expérimentations numériques}{225}%
+\contentsline {subsection}{\numberline {7.4.1}Objectifs et contexte technique}{225}%
+\contentsline {subsection}{\numberline {7.4.2}Instances}{226}%
+\contentsline {subsubsection}{Analyse statistique des instances}{226}%
+\contentsline {subsection}{\numberline {7.4.3}Moyenne de la valeur absolue des gaps}{230}%
+\contentsline {subsection}{\numberline {7.4.4}Résultats des réseaux \textbf {SIMPLE\_TYPE} et \textbf {SIMPLE\_PERIODE}}{232}%
+\contentsline {subsubsection}{Résultats du réseau \textbf {SIMPLE\_TYPE}}{233}%
+\contentsline {subsubsection}{Résultats du réseau \textbf {SIMPLE\_PERIODE}}{234}%
+\contentsline {subsection}{\numberline {7.4.5}Résultats du réseau \textbf {MIXTE\_COUT} pour la prédiction du coût de production}{236}%
+\contentsline {subsection}{\numberline {7.4.6}Résultats du réseau \textbf {INDIC\_COUT} pour la prédiction du coût de production}{237}%
+\contentsline {subsection}{\numberline {7.4.7}Résultats du réseau \textbf {MIXTE\_TEMPS} pour la prédiction du numéro de période de la dernière recharge}{239}%
+\contentsline {subsection}{\numberline {7.4.8}Résultats du réseau \textbf {INDIC\_TEMPS} pour la prédiction du numéro de période de la dernière recharge}{240}%
+\contentsline {section}{\numberline {7.5}Conclusion}{242}%
+\contentsline {chapter}{\numberline {8}Conclusion générale}{244}%
+\contentsline {section}{\numberline {8.1}Récapitulatif de notre contribution}{245}%
+\contentsline {section}{\numberline {8.2}Perspectives}{246}%

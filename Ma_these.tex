@@ -1,0 +1,554 @@
+\documentclass[11pt,a4paper]{report}
+%\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{charter}
+\usepackage[utf8]{inputenc}
+\usepackage{mathabx}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\let\urcorner\relax
+\let\ulcorner\relax
+\let\llcorner\relax 
+\let\lrcorner\relax
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[Algorithme]{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+
+%\usepackage{subfigure}
+%\definecolor{darkWhite}{rgb}{0.94,0.94,0.94}
+
+\lstset{
+	aboveskip=3mm,
+	belowskip=-2mm,
+	backgroundcolor=\color{darkWhite},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	commentstyle=\color{red},
+	deletekeywords={...},
+	escapeinside={\%*}{*)},
+	extendedchars=true,
+	framexleftmargin=16pt,
+	framextopmargin=3pt,
+	framexbottommargin=6pt,
+	frame=tb,
+	keepspaces=true,
+	keywordstyle=\color{blue},
+	language=C,
+	literate=
+	{²}{{\textsuperscript{2}}}1
+	{⁴}{{\textsuperscript{4}}}1
+	{⁶}{{\textsuperscript{6}}}1
+	{⁸}{{\textsuperscript{8}}}1
+	{€}{{\euro{}}}1
+	{é}{{\'e}}1
+	{è}{{\`{e}}}1
+	{ê}{{\^{e}}}1
+	{ë}{{\¨{e}}}1
+	{É}{{\'{E}}}1
+	{Ê}{{\^{E}}}1
+	{û}{{\^{u}}}1
+	{ù}{{\`{u}}}1
+	{â}{{\^{a}}}1
+	{à}{{\`{a}}}1
+	{á}{{\'{a}}}1
+	{ã}{{\~{a}}}1
+	{Á}{{\'{A}}}1
+	{Â}{{\^{A}}}1
+	{Ã}{{\~{A}}}1
+	{ç}{{\c{c}}}1
+	{Ç}{{\c{C}}}1
+	{õ}{{\~{o}}}1
+	{ó}{{\'{o}}}1
+	{ô}{{\^{o}}}1
+	{Õ}{{\~{O}}}1
+	{Ó}{{\'{O}}}1
+	{Ô}{{\^{O}}}1
+	{î}{{\^{i}}}1
+	{Î}{{\^{I}}}1
+	{í}{{\'{i}}}1
+	{Í}{{\~{Í}}}1,
+	morekeywords={*,...},
+	numbers=left,
+	numbersep=10pt,
+	numberstyle=\tiny\color{black},
+	rulecolor=\color{black},
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	stepnumber=1,
+	stringstyle=\color{gray},
+	tabsize=4,
+	title=\lstname,
+}
+%\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{fullpage}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{eurosym}
+\usepackage[table]{xcolor}
+\usepackage[Glenn]{fncychap}
+\usepackage[french]{minitoc}
+\usepackage{lscape}
+\usepackage{supertabular}
+\DeclareUnicodeCharacter{F020}{ }
+%\usepackage{tocbibind}
+%\usepackage[francais]{minitoc}
+%\usepackage[sectionbib]{chapterbib}
+%\usepackage{bibunits} 
+%\usepackage[options]{natbib}
+\setcounter{minitocdepth}{4}
+\usepackage{setspace} 
+\usepackage{slashbox} 
+%\usepackage{biblatex} 
+%\usepackage{lmodern} % font vectorielles (évite la pixellisation des caractères : plus joli)
+%\addbibresource{biblio.bib}
+\usepackage{geometry} \geometry{hmargin=2cm,vmargin=2cm, headsep=4ex}
+\usepackage{makecell,rotating}
+%\newtheorem{french 1}{Algorithme}
+\newtheorem{Def}{Définition}
+\newtheorem{prop}{Proposition}
+\newtheorem{Example}{Exemple}
+\newtheorem{Rem}{Remarque}
+\newtheorem{theo}{Théorème }
+\newtheorem{Lem}{Lemme}
+\floatname{french}{Algorithme}
+\newcommand{\poubelle}[1]{}
+\renewcommand{\algorithmicrequire} {\textbf{Entr\'{e}es:}}
+\renewcommand{\algorithmicensure}  {\textbf{Sorties:}}
+\renewcommand{\algorithmicendfor}  {\textbf{fin pour}}
+\renewcommand{\algorithmicdo}      {\textbf{faire}}
+\renewcommand{\algorithmicto}      {\textbf{à}}
+\renewcommand{\algorithmicfor}     {\textbf{pour}}
+\renewcommand{\algorithmicrepeat}  {\textbf{r\'{e}p\'{e}ter}}
+\renewcommand{\algorithmicuntil}   {\textbf{jusqu'\`{a}}}
+\renewcommand{\algorithmicelse}{\textbf{sinon}}
+\renewcommand{\algorithmicwhile}   {\textbf{Tant que}}
+\renewcommand{\algorithmicendwhile}{\textbf{Fin tant que}}
+\renewcommand{\algorithmicif}   {\textbf{Si}}
+\renewcommand{\algorithmicendif}{\textbf{Fin si}}
+\renewcommand{\algorithmicthen}{\textbf{alors}}
+\renewcommand{\algorithmicthen}{\textbf{alors}}
+\renewcommand{\algorithmicand}{\textbf{et}}
+\renewcommand{\algorithmicor}{\textbf{ou}}
+\renewcommand{\INITIALISATION}{\underline{\textbf{Initialisation :}}}
+\renewcommand{\BOUCLEPRINCIPAL}{\underline{\textbf{Boucle principale :}}}
+%\usepackage{amsthm}
+%\renewcommand{proof}{Démonstration}
+%\usepackage{glossaries}
+
+
+%\usepackage[dvips]{hyperref}
+%\title{Rapport de lecture et implémentation}
+%\author{Eloise}
+%\date{26 Novembre 2018}
+\definecolor{darkWhite}{rgb}{0.94,0.94,0.94}
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+\newcommand{\croix}[1][]
+{%
+	\begin{tikzpicture}[baseline=(textbox.base),inner sep=0pt]
+	\node[cross out,draw,text width=\dimexpr#1] (textbox) {\strut};
+	\useasboundingbox (textbox);
+	\end{tikzpicture}%
+}
+ 
+\let\mylistof\listof
+\renewcommand\listof[2]{\mylistof{algorithm}{Liste des algorithmes}}
+% pour palier au problème de niveau des algos
+\makeatletter
+\providecommand*{\toclevel@algorithm}{0}
+\makeatother
+
+\usepackage{eso-pic}	% Nécessaire pour mettre des images en arrière plan
+\usepackage{array}		% Permet d'écrite 'THESE' de haut en bas
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\lhead{\small\textsl{ \thepage}} \chead{} \rhead{\textsl{\leftmark}} \rfoot{\hrulefill} \cfoot{} 
+
+%\input{Pagedegarderapport}
+
+\input{Pagedegarde}	
+
+\author{Eloise Yollande \textsc{Molé Kamga}}
+\title{Pilotage synchronisé de la production d'énergie et d'activités de services de véhicules autonomes ou partiellement autonomes}
+\ED{Ecole doctorale des sciences pour l'ingénieur}
+
+\specialite{Informatique}
+\directeura{Fatiha  BENDALI}{Maîtresse de Conférences, HDR}{Université Clermont Auvergne}
+\directeurb{Jean MAILFERT}{Maître de Conférences, HDR}{Université Clermont Auvergne}
+\directeurc{ Alain QUILLIOT}{Professeur des Universités}{Université Clermont Auvergne}
+\directeurd{ Hélène TOUSSAINT}{Docteur, Ing. de Recherche CNRS}{Université Clermont Auvergne}
+\juryb{Pierre FOUILHOUX}{Professeur des Universités}{Université de Paris XIII} 
+\jurya{Ibrahima DIARRASSOUBA}{Maître de Conférences, HDR}{Université du Havre}
+\juryd{Sandra Ulrich NGUEVEU}{Maîtresse de Conférences, HDR}{Université Paul Sabatier} 
+\juryc{Nabil ABSI}{Professeur des Universités}{Ecole des Mines de Saint-Etienne}
+%\directeur{ \\ Alain \textsc{Quilliot}, Professeur des Universités, \textit{Université Clermont Auvergne} \\ Fatiha  \textsc{BENDALI} , Maître de Conférences, HDR, \textit{Université Clermont Auvergne} \\ Jean \textsc{MAILFERT} Maître de Conférences, HDR, \textit{Université Clermont Auvergne}\\ Hélène \textsc{Toussaint} Ingénieur de recherche CNRS, \textit{Université Clermont Auvergne}} 
+%\encadrant{Fatiha  \textsc{BENDALI}}
+%\encadrant{Jean \textsc{MAILFERT}}
+%\encadrant{Hélène \textsc{Toussaint}}
+
+\date{ 18 Juillet 2023}
+
+\ecole{Université Clermont Auvergne}
+\adresse{
+	\textbf{LIMOS\\ Laboratoire d'Informatique de Modélisation et d'Optimisation des Systèmes}
+	\\	 France
+}
+\setcounter{tocdepth}{1} 
+\onehalfspacing
+\dominitoc
+\doparttoc
+
+
+\begin{document}
+
+	%11pt,a4paper
+%\pagedegarderapport
+\pagedegarde
+
+%\setlength{\parskip}{7} %ajoute de l'espace entre les paragraphes
+
+
+
+%Ce travail a été réalisé dans le cadre du projet européen H2020 Marie Sklodowska-Curie Research and Innovation %Staff Exchange European project 691161 “GEO-SAFE”
+%GEO-SAFE.
+%Geospatial based Environment for Optimisation Systems Addressing Fire Emergencies, 691161, 2020.
+%https://cordis.europa.eu/project/id/691161 CORDIS | European Commission
+%\renewcommand{\arraystretch}{1.2}%diminu 10 pages en reserrant les cellules des tableaux
+
+\poubelle{
+	
+	\chapter*{Remerciements}
+Tout d'abord je voudrais remercier \textbf{Nabil ABSI} et \textbf{Sandra Ulrich NGUEVEU} d'avoir accepté de relire cette thèse et d'en être rapporteurs. La version finale de ce mémoire va bénéficier de leur lecture très attentive et de leurs remarques précieuses. Je tiens à remercier \textbf{PR1} d'avoir accepté d'être président du jury. Je remercie également tous les
+membres du jury d'avoir accepté d'assister à la présentation de ce travail, particulièrement \textbf{Pierre FOUILHOUX} et \textbf{Ibrahima DIARRASSOUBA}.
+
+Je remercie chaleureusement toutes les personnes qui m'ont aidé pendant l'élaboration de ma thèse et notamment mes directrices \textbf{Fatiha BENDALI}, \textbf{Hélène TOUSSAINT}, et, mes directeurs \textbf{Jean MAILFERT}, \textbf{Alain QUILLIOT} pour leur intérêt, leur soutien, leur grande disponibilité et leurs nombreux conseils tout au long de mes années de doctorat. Ils ont toujours été à l'écoute de mes nombreuses questions, et
+se sont toujours intéressés à l'avancée de mes travaux. Les nombreuses discussions que nous avons
+eues ainsi que leurs conseils sont pour beaucoup dans le résultat final de ce travail. Leurs capacités
+d'analyse et leur enthousiasme m'ont montré que le monde de la recherche pouvait être un univers
+passionnant. Enfin, leurs nombreuses relectures et corrections de cette thèse ont été très appréciables.
+Cette thèse leurs doit beaucoup !
+
+Ce travail n'aurait pas été possible sans le soutien de l'Université Clermont Auvergne et du LIMOS, qui m'ont permis, grâce à une allocation de recherches du Labex IMobS3 et du FEDER-Région Auvergne, de me consacrer sereinement à l'élaboration de ma thèse.
+
+Tout ceci n'aurait pu être mené à bien sans la disponibilité et l'accueil chaleureux que m'ont témoignés Engelbert MEPHU NGUIFO, Sylverin Kemmoe Tchomte, Vanel Steve Siyou Fotso, Nina Pelagie Bekono, Gertrude Raïssa Mbiadou Saleu, Benjamin Vincent, Matthieu Gondran, Ousmane Maiga, Ali Mamadou Mamadou, Guéréguin Der Sylvestre Sidibe et Michael Franklin Mbouopda.
+
+Je remercie enfin celles et ceux qui me sont chers et que j'ai quelque peu délaissés ces derniers mois pour achever cette thèse. Leurs attentions et encouragements m'ont accompagnée tout au long de ces années.
+
+J'ai une pensée toute particulière pour ma grand-mère, Yandom Véronique. Je suis redevable à mes oncles, Kamgang Simplice et Youbi Nicolas, à ma tante Siewe Valérie, à mes parents, Siewe Emilienne et Belmondo Kamga, pour leur soutien moral et matériel et leur confiance indéfectible dans mes choix. Enfin, Je remercie affectueusement mon époux Nama Nyam Guy Anthony d'avoir toujours été là pour moi à chaque étape. Je dédie cette thèse à mon petit garçon Nama Oyono Joseph né en 2021 au cours de l'élaboration de ce travail.
+
+Je remercie pour finir Norbert TSOPZE.
+}
+\newpage
+%\setlength{\parskip}{0} %ajoute de l'espace entre les paragraphes
+%~
+%\newpage
+\chapter*{Resume}
+Le problème global (\textit{Simultaneous Management of Energy Production and Consumption} : \textbf{SMEPC}) que
+nous abordons dans le cadre de ce projet, concerne la gestion synchrone sur une plateforme
+expérimentale appelée PAVIN (Plateformes Auvergne pour Véhicules intelligents) d'une flotte de petits
+véhicules électriques équipés de cellules hydrogène, qui sont nécessaires pour effectuer des tâches logistiques
+locales dans une zone limitée, et d'une micro-usine de production d'hydrogène chargée du remplissage
+périodique en hydrogène de ces véhicules.
+ On considère 1 seul véhicule, nécessaire pour effectuer des tâches selon un ordre
+préétabli. Le véhicule commence sa tournée avec une certaine charge de carburant hydrogène, et son réservoir a
+une capacité limitée. Il doit donc retourner périodiquement à la micro-usine pour se recharger en
+carburant (de l'hydrogène). La micro-usine a une capacité de production/stockage limitée, qui dépend de l'ensoleillement.
+
+Notre objectif est de programmer simultanément les opérations de ravitaillement du véhicule et l'activité
+de production/stockage de la micro-usine en minimisant le coût de production et la durée de la tournée.
+Ce problème global est complexe car il implique à la fois des caractéristiques liées à l'incertitude des
+prévisions météorologiques, au comportement autonome du véhicule mais aussi liées à la synchronisation
+des recharges du véhicule et de la production d'hydrogène.
+On modélise d'abord notre problème par des programmes linéaires.
+% qu'on enrichi ensuite à l'aide de la technique de \textit{Branch and Cut}.
+Ensuite, pour résoudre le problème \textbf{SMEPC} plusieurs méthodes d'optimisation sont abordées à savoir : la méthode d'optimisation de type
+programmation dynamique qu'on nomme ici \textbf{DPS\_SMEPC} et la méthode d'optimisation de type heuristique qu'on appelle ici \textbf{Pipe-line VD\_PM}. Pour finir, on conçoit un estimateur de coûts à l'aide de procédés d'approximation de type réseau de neurones.
+
+Nous modélisons \textbf{SMEPC} par un programme linéaire en nombre entiers mixtes (MIP). Les variables de décisions sont associées à la recharge du véhicule et à la production d'hydrogène. Mais, comme il implique un trop grand nombre de variables, on le décompose en deux sous-problèmes distincts. Le	premier contrôle la tournée du véhicule, et le second traite de la gestion de la micro-usine. Ils sont également traités par des programmes linéaires reliés entre eux par un mécanisme de synchronisation.
+
+\textbf{SMEPC} est traité par programmation dynamique. Le schéma de programmation dynamique (DPS) tend
+à impliquer en pratique un nombre excessivement élevé d'états. Nous introduisons des
+dispositifs de filtrage : basés sur l'anticipation des incohérences en définissant des règles logiques, basés sur une estimation optimiste sur la base du pré-calcul d'une solution initiale réalisable, et, basés sur l'utilisation de mécanismes de dominance.
+Une partie de l'étude est consacrée à une évaluation de la puissance de ces processus de filtrage.
+
+Dans le souci de faire ressortir la dimension \textbf{collaborative} de notre problème, nous traitons \textbf{SMEPC} par le biais d'une heuristique en le décomposons en deux sous-problèmes
+distincts, le problème \textbf{Vehicle-Driver (VD)} qui consiste à déterminer une \textbf{stratégie de recharge} du véhicule, et le
+problème \textbf{Production-Manager (PM)} qui consiste à déterminer une \textbf{stratégie de production} de la micro-usine. 
+En effet, la solution du problème véhicule est considérée comme une entrée du problème production. La
+stratégie de production est calculée en tenant compte de la tournée trouvée par le problème véhicule.
+
+Pour pouvoir prédire rapidement le coût de la solution optimale d'une instance, on conçoit un estimateur. Ce dernier a été construit à l'aide de réseaux de neurones qui prennent en entrées les données de l'instance et fournissent en sortie une estimation de la valeur optimale. Pour réaliser la phase d'apprentissage et de test des réseaux de neurones, on utilise un ensemble de 6000 instances.
+
+\textbf{Mots clés :} Ordonnancement, Gestion de l'Energie, Programmation Dynamique, Réseaux de Neurones .  
+\newpage
+%~
+%\newpage
+\chapter*{Abstract}
+The global problem (\textit{Simultaneous Management of Energy Production and Consumption} : \textbf{SMEPC}) that
+we are addressing in this project, concerns the synchronous management on a platform
+called PAVIN (Plateformes Auvergne pour Véhicules intelligents) of a fleet of small, experimental
+electric vehicles equipped with hydrogen cells, which are required to perform logistical tasks
+in a limited area, and a micro-hydrogen production plant for filling the hydrogen tank
+of these vehicles.
+We consider only 1 vehicle, necessary to perform tasks in an order of
+predefined. The vehicle starts its tour with a certain amount of hydrogen fuel, and its tank has
+limited capacity. It must therefore return periodically to the micro-plant to recharge in
+fuel (hydrogen). The micro-plant has a limited production/storage capacity, which depends on sunlight.
+
+Our objective is to simultaneously schedule the vehicle refueling operations and the production/storage activity of the
+production/storage activity of the microfactory while minimizing the production cost and the duration of the tour.
+This global problem is complex because it involves both characteristics related to the uncertainty of the weather forecast, the autonomous
+the autonomous behavior of the vehicle but also related to the synchronization of the vehicle's
+of the vehicle recharging and hydrogen production.
+We first model our problem by linear programs.
+% which we then enrich using the technique of \textit{Branch and Cut}.
+Then, to solve the problem \textbf{SMEPC} several methods of optimization are approached namely: the method of optimization of type
+dynamic programming that we call here \textbf{DPS\_SMEPC} and the optimization method of heuristic type that we call here \textbf{Pipe-line VD\_PM}. Finally, we design a cost estimator using neural network approximation processes.
+
+We model \textbf{SMEPC} by a mixed integer linear program (MIP). The decision variables are associated with vehicle charging and hydrogen production. However, since it involves too many variables, it is decomposed into two distinct subproblems. The first one controls the vehicle tour, and the second one deals with the management of the microfactory. They are also handled by linear programs linked together by a synchronization mechanism.
+
+\textbf{SMEPC} is processed by dynamic programming. The Dynamic Programming Scheme (DPS) tends to
+to involve in practice an excessively high number of states. We are introducing
+filtering devices: based on the anticipation of inconsistencies by defining logical rules, based on an optimistic estimation based on the pre-calculation of a feasible initial solution, and, based on the use of dominance mechanisms.
+Part of the study is devoted to an evaluation of the power of these filtering processes.
+
+In order to bring out the \textbf{collaborative} dimension of our problem, we treat \textbf{SMEPC} through a heuristic by decomposing it into two sub-problems
+distinct, the problem \textbf{Vehicle-Driver (VD)} which consists in determining a \textbf{recharging strategy} of the vehicle, and the
+problem \textbf{Production-Manager (PM)} which consists in determining a \textbf{production strategy} for the micro-plant. 
+Indeed, the solution of the vehicle problem is considered as an input to the production problem. The
+production strategy is calculated taking into account the route found by the vehicle problem.
+
+In order to quickly predict the cost of the optimal solution of an instance, an estimator is designed. This estimator is built using neural networks that take as input the data of the instance and provide as output an estimate of the optimal value. To carry out the learning and testing phase of the neural networks, a set of 6000 instances is used.
+
+\textbf{Keywords :}  Scheduling, Energy Management, Dynamic Programming, Neural Networks . 
+\newpage
+%~
+%\newpage
+\chapter*{Financements}
+
+%\section*{Financements }
+Ce travail de recherche est cofinancé par le Labex IMobS3 et le FEDER-Région Auvergne.
+
+%\includegraphics[height=3cm]{images_these/logo_labex.png}
+%\includegraphics[height=3.6cm]{images_these/logo_aura.pdf}
+
+
+\begin{center}
+	\includegraphics[height=5cm]{images_these/IMobS3_Rectangle.jpg}
+	
+	\includegraphics[height=5.5cm]{images_these/FEDER.jpg}
+	
+	\includegraphics[height=2cm]{images_these/Investissements_d'avenir_logo.jpeg}
+\end{center}
+\newpage
+%~
+%\newpage
+\chapter*{Publications}
+
+%\vspace{1cm}
+%\section*{Publications}
+Les travaux de recherches réalisés durant cette thèse ont donné lieu aux publications présentées ci-dessous.
+\section*{Journaux}
+%RAIRO (soumis le 01/04/2020).
+
+%	\bibitem{El_RAIRO}
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock Synchronizing Energy Production and Vehicle Routing.
+\newblock \textit{RAIRO - Operations Research}, 2021.%17-06-	%https://www.rairo-ro.org/articles/ro/abs/2021/05/ro200115/ro200115.html
+
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock Pipe-Lining Dynamic Programming Processes in Order to Synchronize Management Energy Production and Consumption.
+\newblock \textit{RAIRO - Operations Research}, 2021.%17-06-	
+
+\section*{Conférences internationales}
+
+%	\bibitem{El_CODIT}
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock Simultaneous Management of Energy Production and Consumption.
+\newblock \textit{Control, Decision and Information Technologies (CoDIT)}, Prague, Republique Czech, 2020.
+
+
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock Pipe-Lining Dynamic Programming Processes in Order to Synchronize Management Energy Production and Consumption.
+\newblock \textit{FedCSIS}, 2020.	
+
+
+Fatiha Bendali, Eloise Yollande Mole Kamga, Jean Mailfert, Alain Quilliot et Hélène Toussaint.
+\newblock A Synchronized Knapsack Problem.
+\newblock \textit{Control, Decision and Information Technologies (CoDIT)}, Istanbul, 2022. 
+
+%Fatiha Bendali, Eloise Yollande Mole Kamga, Jean Mailfert, Alain Quilliot et Hélène Toussaint.
+%\newblock A linear formulation for the Synchronous Management of Energy Production and Consumption.
+%\newblock \textit{DAM-Isco}, 2020. (soumis le 11/10/2021)
+\section*{Conférences nationales}
+%Dans des colloques nationaux :  ROADEF 2020, Monpellier, France \cite{Bendali2020LinearPF}.
+%	\bibitem{El_ROADEF\cite{Bendali2020LinearPF}}
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock MIP for the simultaneous management of energy production and consumption.
+\newblock \textit{Société française de recherche opérationnelle et d'aide à la décision (ROADEF)}, Monpellier, France 2020.
+
+
+\section*{Invitations aux conférences}	
+%Invitée à : NICST 2019, Bordeaux, France ;
+%	\bibitem{El_NICST}
+Fatiha Bendali, Jean Mailfert, Eloise Yollande Mole Kamga, Alain Quilliot et Hélène Toussaint.
+\newblock Simultaneously dealing with renewable (Hydrogen) energy production and consumption.
+\newblock \textit{NICST}, Bordeaux, France 2019.
+
+\section*{Collaboration internationale}
+
+Dans le cadre du projet GEO-SAFE, j'ai effectué un séjour de recherche de Mai 2019 à Juillet 2019 à Melbourne en Australie. Ce travail a été réalisé dans le cadre du projet européen H2020 Marie Sklodowska-Curie Research and Innovation Staff Exchange European project 691161 “GEO-SAFE”
+%GEO-SAFE.
+Geospatial based Environment for Optimisation Systems Addressing Fire Emergencies, 691161, 2020.
+
+%\end{enumerate}
+\newpage
+%~
+%\newpage
+\tableofcontents
+%\addstarredchapter{Table des matières} 
+\newpage
+%~
+%\newpage
+\listofalgorithms % pour lister les algos (après la toc)
+\addstarredchapter{Liste des algorithmes} 
+\newpage
+%~
+%\newpage
+\listoffigures
+\addstarredchapter{Table des figures} 
+\newpage
+%~
+%\newpage
+\listoftables
+\addstarredchapter{Liste des tableaux} 
+\newpage
+%~
+%\newpage
+%	\addcontentsline{toc}{chapter}{Introduction générale} 
+
+%\setlength{\parskip}{7} %ajoute de l'espace entre les paragraphes
+
+\input{introduction.tex}
+\input{chapitre_1.tex}
+\input{chapitre_2.tex}
+\input{chapitre_3_bis.tex}
+\input{chapitre_3.tex}
+\input{chapitre_4.tex}
+\input{chapitre_5.tex} %ajouter cette ligne pour ajouter le chapitre 6 : Approche par réseau de neurones
+\input{conclusion.tex}
+
+%	\cite{Licht2008}
+%	\cite{article_RVRP1}
+%	\cite{article_GVRP1}
+%	\cite{article_GVRP2}
+%	\cite{article_GVRP3}
+%	\cite{article_GVRP4}
+%	\cite{article_GVRP5}
+%	\cite{article_GVRP6}
+%	\cite{article_GVRP7}
+%	\cite{article_GVRP8}
+%	\cite{article_GVRP9}
+%	\cite{article_GVRP10}
+%	\cite{article_GVRP11}
+%	\cite{article_GVRP12}
+%	\cite{article_GVRP13}
+%	\cite{article_GVRP14}
+%	\cite{article_GVRP15}
+%	\cite{article_GVRP16}
+%	\cite{article_HVRP1}
+%	\cite{article_HVRP2}
+%	\cite{article_HVRP3}
+%	\cite{article_HVRP4}
+%	\cite{article_HVRP5}
+%	\cite{article_prod1}
+%	\cite{article_prod2}
+%	\cite{article_prod3}
+%	\cite{article_prod4}
+%	\cite{article_synchro1}
+%	\cite{article_synchro2}
+%	\cite{article_synchro3}
+%	\cite{article_hydro_elect_hybrid1}
+%	\cite{article_hydro_elect_hybrid2}
+%	\cite{RePEc:inm:oropre:v:35:y:1987:i:2:p:266-273} 
+%	\cite{ChrMinTot81tsptw}
+%	\cite{Energy-Efficient-Albers-Susanne}
+%	\cite{ANGEL20141}
+%   \cite{inproceedings-Baptiste-Scheduling}
+%   \cite{inproceedings-Baptiste-Modeles}
+%   \cite{845896A-survey-of-design}
+%   \cite{quilliot:hal-01366540}
+%   \cite{RePEc:eee:ejores:v:261:y:2017:i:1:p:67-74}
+%   \cite{article-Homogeneously-alain}
+%   \cite{article-Demaine-Scheduling}
+%   \cite{Grimes}
+%   \cite{article-Irani-Algorithmic}
+%   \cite{article_Ropke} 
+%   \cite{article_Shaw}
+%   \cite{Dantzig_1959}
+%    \cite{IRP_Adulyasak}
+%  \cite{IRP_Alvarez}
+%   \cite{IRP_Alvarez_2019}
+%   \cite{IRP_Archetti}
+%  \cite{IRP_Archetti_2012}
+%  \cite{IRP_Archetti_2017}
+%  \cite{IRP_Chitsaz}
+%\cite{IRP_Leandro}
+% \cite{IRP_Coelho_2014}
+%    \cite{IRP_Guy}
+%   \cite{IRP_Hewitt}
+%   \cite{IRP_Edcarllos}
+%   \cite{Xiao_heterogeneous_2016}
+%   \cite{Antonio_2020}
+%   \cite{Ferani_2020}
+%   \cite{Alizadeh_Foroutan_2020}
+%   	\cite{PRP_Panagiotis_2020}Î
+%   \cite{PRP_Yiyong_2020}
+%   \cite{PRP_Rui_2020}
+%   \cite{PRP_Erfan_2020}
+%    \cite{BEKTAS20111232}
+%   \cite{PRP_Franceschetti_2013}
+%   \cite{PRP_Ko_2014}
+%   \cite{EVRP_Ji_2020}
+%   \cite{EVRP_Rui_2020}
+%   \cite{EVRP_Rasoul_2020}
+%   \cite{EVRP_Kexing_2020}
+%   \cite{EVRP_Surendra_2020}
+%   \cite{EVRP_Shuai_2020}
+%   \cite{EVRP_Sina_2020}
+%   %production planing problem
+%   \cite{PPP_Dmitry_2017}
+%   \cite{PPP_Weiwei_2018}
+%   \cite{PPP_Kuttner_2009}
+%   \cite{PPP_Esmaeil_2018}
+%   \cite{PPP_Lixin_2012}
+%   \cite{PPP_Yan_2009}
+%   \cite{PPP_Nicolas_2019}
+%   \cite{PPP_Sandeep_2018}
+%   \cite{PPP_Jingran_2019}
+%   \cite{PPP_Saman_2016}
+%   \cite{PPP_Dev}
+%   \cite{PPP_Fanny_2016}
+%   \cite{PPP_Yuvraj_2015}
+%   \cite{PPP_Yanfei_2010}
+%   \cite{PPP_Hui_2019}
+%   \cite{PPP_Doga_2020}
+%   \cite{PPP_Guisen_2020}
+%   \cite{PPP_Samir_2010}
+%	\cite{plateforme}
+	\newpage
+	\bibliographystyle{plain}
+	\bibliography{bibliographie_These}
+	%Pour compiler la nouvelle biblio appuyer juste f6
+	%Bibliographie
+	
+	
+\end{document}

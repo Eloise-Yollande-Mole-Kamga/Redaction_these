@@ -1,0 +1,643 @@
+\begin{thebibliography}{100}
+
+\bibitem{PPP_Samir_2010}
+Samir~A. Abass, Mohamed~Ali Gomaa, Gaber~A. Elsharawy, and Marwa~Sh. Elsaid.
+\newblock Generalized production planning problem under interval uncertainty.
+\newblock {\em Egyptian Informatics Journal}, 11(1):27 -- 31, 2010.
+
+\bibitem{IRP_Adulyasak}
+Yossiri Adulyasak, Jean-François Cordeau, and Raf Jans.
+\newblock Formulations and branch-and-cut algorithms for multivehicle
+  production and inventory routing problems.
+\newblock {\em INFORMS Journal on Computing}, 26(1):103--120, 2014.
+
+\bibitem{Alizadeh_Foroutan_2020}
+Reza {Alizadeh Foroutan}, Javad Rezaeian, and Iraj Mahdavi.
+\newblock Green vehicle routing and scheduling problem with heterogeneous fleet
+  including reverse logistics in the form of collecting returned goods.
+\newblock {\em Applied Soft Computing}, 94:106462, 2020.
+
+\bibitem{IRP_Alvarez_2019}
+Aldair Alvarez, Jean-François Cordeau, Raf Jans, Pedro Munari, and Reinaldo
+  Morabito.
+\newblock Formulations, branch-and-cut and a hybrid heuristic algorithm for an
+  inventory routing problem with perishable products.
+\newblock {\em European Journal of Operational Research}, 283, 11 2019.
+
+\bibitem{IRP_Alvarez}
+Aldair Alvarez, Pedro Munari, and Reinaldo Morabito.
+\newblock Iterated local search and simulated annealing algorithms for the
+  inventory routing problem.
+\newblock {\em International Transactions in Operational Research},
+  25(6):1785--1809, 2018.
+
+\bibitem{article_GVRP12}
+Juho Andelmin and Enrico Bartolini.
+\newblock An exact algorithm for the green vehicle routing problem.
+\newblock {\em Transportation Science}, 51, 07 2017.
+
+\bibitem{ANGEL20141}
+Eric Angel, Evripidis Bampis, and Vincent Chau.
+\newblock Low complexity scheduling algorithms minimizing the energy for tasks
+  with agreeable deadlines.
+\newblock {\em Discrete Applied Mathematics}, 175:1 -- 10, 2014.
+
+\bibitem{IRP_Archetti_2012}
+C.~Archetti, Luca Bertazzi, Alain Hertz, and M.Grazia Speranza.
+\newblock A hybrid algorithm for an inventory-routing problem.
+\newblock {\em Informs Journal on Computing}, 24:101--116, 01 2012.
+
+\bibitem{IRP_Archetti}
+C.~Archetti, Luca Bertazzi, Gilbert Laporte, and M.Grazia Speranza.
+\newblock A branch-and-cut algorithm for a vendor-managed inventory-routing
+  problem.
+\newblock {\em Transportation Science}, 41:382--391, 08 2007.
+
+\bibitem{IRP_Archetti_2017}
+Claudia Archetti, Natashia Boland, and M.~Grazia~Speranza.
+\newblock A matheuristic for the multivehicle inventory routing problem.
+\newblock {\em INFORMS Journal on Computing}, 29(3):377--387, 2017.
+
+\bibitem{PPP_Dmitry_2017}
+Dmitry~I. Arkhipov, Olga Battaïa, and Alexander~A. Lazarev.
+\newblock Long-term production planning problem: scheduling, makespan
+  estimation and bottleneck analysis.
+\newblock {\em IFAC-PapersOnLine}, 50(1):7970 -- 7974, 2017.
+\newblock 20th IFAC World Congress.
+
+\bibitem{EVRP_Sina_2020}
+Sina Bahrami, Mehdi Nourinejad, Glareh Amirjamshidi, and Matthew~J. Roorda.
+\newblock The plugin hybrid electric vehicle routing problem: A
+  power-management strategy model.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 111:318
+  -- 333, 2020.
+
+\bibitem{inproceedings-Baptiste-Scheduling}
+Philippe Baptiste.
+\newblock Scheduling unit tasks to minimize the number of idle periods: A
+  polynomial time algorithm for offline dynamic power management.
+\newblock pages 364--367, 01 2006.
+
+\bibitem{BEKTAS20111232}
+Tolga Bektaş and Gilbert Laporte.
+\newblock The pollution-routing problem.
+\newblock {\em Transportation Research Part B: Methodological},
+  45(8):1232--1250, 2011.
+\newblock Supply chain disruption and risk management.
+
+\bibitem{doi:10.1126/science.153.3731.34}
+Richard Bellman.
+\newblock Dynamic programming.
+\newblock {\em Science}, 153(3731):34--37, 1966.
+
+\bibitem{RePEc:eee:ejores:v:261:y:2017:i:1:p:67-74}
+Pascale Bendotti, Philippe Chrétienne, Pierre Fouilhoux, and Alain Quilliot.
+\newblock {Anchored reactive and proactive solutions to the CPM-scheduling
+  problem}.
+\newblock {\em European Journal of Operational Research}, 261(1):67--74, 2017.
+
+\bibitem{845896A-survey-of-design}
+L.~{Benini}, A.~{Bogliolo}, and G.~{De Micheli}.
+\newblock A survey of design techniques for system-level dynamic power
+  management.
+\newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
+  Systems}, 8(3):299--316, 2000.
+
+\bibitem{brown1965iterative}
+Barry~W Brown.
+\newblock On the iterative method of dynamic programming on a finite space
+  discrete time markov process.
+\newblock {\em The annals of mathematical statistics}, pages 1279--1285, 1965.
+
+\bibitem{article_hydro_elect_hybrid2}
+Andrew Burke.
+\newblock Batteries and ultracapacitors for electric, hybrid, and fuel cell
+  vehicles.
+\newblock {\em Proceedings of the IEEE}, 95:806 -- 820, 05 2007.
+
+\bibitem{article_hydro_elect_hybrid1}
+C.C. Chan.
+\newblock The state of the art of electric, hybrid, and fuel cell vehicles.
+\newblock {\em Proceedings of the IEEE}, 95:704 -- 718, 05 2007.
+
+\bibitem{PPP_Sandeep_2018}
+Sandeep~Singh Chauhan, Chinta Sivadurgaprasad, Rajasekhar Kadambur, and Prakash
+  Kotecha.
+\newblock A novel strategy for the combinatorial production planning problem
+  using integer variables and performance evaluation of recent optimization
+  algorithms.
+\newblock {\em Swarm and Evolutionary Computation}, 43:225 -- 243, 2018.
+
+\bibitem{EVRP_Rui_2020}
+Rui Chen, Xinwu Qian, Lixin Miao, and Satish~V. Ukkusuri.
+\newblock Optimal charging facility location and capacity for electric vehicles
+  considering route choice and charging time equilibrium.
+\newblock {\em Computers and Operations Research}, 113:104776, 2020.
+
+\bibitem{IRP_Chitsaz}
+Masoud Chitsaz, Jean-François Cordeau, and Raf Jans.
+\newblock A unified decomposition matheuristic for assembly, production, and
+  inventory routing.
+\newblock {\em INFORMS Journal on Computing}, 31(1):134--152, 2019.
+
+\bibitem{ChrMinTot81tsptw}
+N.~Christofides, A.~Mingozzi, and P.~Toth.
+\newblock State-space relaxation procedures for the computation of bounds to
+  routing problems.
+\newblock {\em Networks}, 11(2):145--164, 1981.
+
+\bibitem{IRP_Leandro}
+Leandro~C. Coelho, Jean-Francois Cordeau, and Gilbert Laporte.
+\newblock Consistency in multi-vehicle inventory-routing.
+\newblock {\em Transportation Research Part C-emerging Technologies},
+  24:270--287, 2012.
+
+\bibitem{IRP_Coelho_2014}
+Leandro~C Coelho and Gilbert Laporte.
+\newblock Improved solutions for inventory-routing problems through valid
+  inequalities and input ordering.
+\newblock {\em International Journal of Production Economics}, 155(C):391--397,
+  2014.
+
+\bibitem{PPP_Weiwei_2018}
+Weiwei Cui, Zhiqiang Lu, Chen Li, and Xiaole Han.
+\newblock A proactive approach to solve integrated production scheduling and
+  maintenance planning problem in flow shops.
+\newblock {\em Computers and Industrial Engineering}, 115:342 -- 353, 2018.
+
+\bibitem{Dantzig_1959}
+G.~B. Dantzig and J.~H. Ramser.
+\newblock The truck dispatching problem.
+\newblock {\em Management Science}, 6(1):80--91, 1959.
+
+\bibitem{article-Demaine-Scheduling}
+Erik Demaine, Mohammad Ghodsi, Mohammad Hajiaghayi, Amin Sayedi-Roshkhar, and
+  Morteza Zadimoghaddam.
+\newblock Scheduling to minimize gaps and power consumption.
+\newblock {\em Journal of Scheduling}, 16:46--54, 06 2007.
+
+\bibitem{article_GVRP7}
+E.~Demir, T.~Bektas, and G.~Laporte.
+\newblock An adaptive large neighborhood search heuristic for the
+  pollution-routing problem.
+\newblock {\em European Journal of Operational Research}, 223(2):346--359,
+  December 2012.
+
+\bibitem{article_GVRP6}
+E.~Demir, T.~Bektas, and G.~Laporte.
+\newblock The bi-objective pollution-routing problem.
+\newblock {\em European Journal of Operational Research}, 232(3):464--478,
+  2013.
+
+\bibitem{PPP_Doga_2020}
+C.~Doga Demirhan, Fani Boukouvala, Kyungwon Kim, Hyeju Song, William~W. Tso,
+  Christodoulos~A. Floudas, and Efstratios~N. Pistikopoulos.
+\newblock An integrated data-driven modeling and global optimization approach
+  for multi-period nonlinear production planning problems.
+\newblock {\em Computers and Chemical Engineering}, 141:107007, 2020.
+
+\bibitem{IRP_Guy}
+Guy Desaulniers, Jørgen~G. Rakke, and Leandro~C. Coelho.
+\newblock {A Branch-Price-and-Cut Algorithm for the Inventory-Routing Problem}.
+\newblock {\em Transportation Science}, 50(3):1060--1076, August 2016.
+
+\bibitem{PPP_Dev}
+M.V. Devyaterikova, A.A. Kolokolov, and A.P. Kolosov.
+\newblock L-class enumeration algorithms for a discrete production planning
+  problem with interval resource quantities.
+\newblock {\em Computers and Operations Research}, 36(2):316 -- 324, 2009.
+\newblock Scheduling for Modern Manufacturing, Logistics, and Supply Chains.
+
+\bibitem{article_synchro2}
+Michael Drexl.
+\newblock {Synchronization in Vehicle Routing---A Survey of VRPs with Multiple
+  Synchronization Constraints}.
+\newblock {\em Transportation Science}, 46(3):297--316, August 2012.
+
+\bibitem{article_GVRP3}
+Sevgi Erdoğan and Elise Miller-Hooks.
+\newblock A green vehicle routing problem.
+\newblock {\em Transportation Research Part E: Logistics and Transportation
+  Review}, 109:100–114, 01 2012.
+
+\bibitem{PPP_Saman_2016}
+Saman Eskandarzadeh, Kourosh Eshghi, and Mohsen Bahramgiri.
+\newblock Risk shaping in production planning problem with pricing under random
+  yield.
+\newblock {\em European Journal of Operational Research}, 253(1):108 -- 120,
+  2016.
+
+\bibitem{EVRP_Rasoul_2020}
+S.~Rasoul Etesami, Walid Saad, Narayan~B. Mandayam, and H.~Vincent Poor.
+\newblock Smart routing of electric vehicles for load balancing in smart grids.
+\newblock {\em Automatica}, 120:109148, 2020.
+
+\bibitem{article_synchro1}
+Martin Fink, Guy Desaulniers, Markus Frey, Ferdinand Kiermaier, Rainer Kolisch,
+  and François Soumis.
+\newblock Column generation for vehicle routing problems with multiple
+  synchronization constraints.
+\newblock {\em European Journal of Operational Research}, 272(2):699 -- 711,
+  2019.
+
+\bibitem{article_GVRP8}
+Anna Franceschetti, Emrah Demir, Dorothée Honhon, Tom~Van Woensel, Gilbert
+  Laporte, and Mark Stobbe.
+\newblock A metaheuristic for the time-dependent pollution-routing problem.
+\newblock {\em European Journal of Operational Research}, 259(3):972 -- 991,
+  2017.
+
+\bibitem{PRP_Franceschetti_2013}
+Anna Franceschetti, Dorothée Honhon, Tom Van~Woensel, Tolga Bektaş, and
+  Gilbert Laporte.
+\newblock {The time-dependent pollution-routing problem}.
+\newblock {\em Transportation Research Part B: Methodological}, 56(C):265--293,
+  2013.
+
+\bibitem{PPP_Yuvraj_2015}
+Yuvraj Gajpal and Mustapha Nourelfath.
+\newblock Two efficient heuristics to solve the integrated load distribution
+  and production planning problem.
+\newblock {\em Reliability Engineering and System Safety}, 144:204 -- 214,
+  2015.
+
+\bibitem{Antonio_2020}
+Antonio Giallanza and Gabriella~Li Puma.
+\newblock Fuzzy green vehicle routing problem for designing a three echelons
+  supply chain.
+\newblock {\em Journal of Cleaner Production}, 259:120774, 2020.
+
+\bibitem{Grimes}
+Craig Grimes, Oomman Varghese, and Sudhir Ranjan.
+\newblock {\em Light, water, hydrogen: The solar generation of hydrogen by
+  water photoelectrolysis}.
+\newblock 01 2008.
+
+\bibitem{article_GVRP5}
+Yun He, Cyril Briand, and Nicolas Jozefowiez.
+\newblock A mass-flow based milp formulation for the inventory routing with
+  explicit energy consumption.
+\newblock pages 242--251, 02 2016.
+
+\bibitem{PPP_Fanny_2016}
+Fanny Hein and Christian Almeder.
+\newblock Quantitative insights into the integrated supply vehicle routing and
+  production planning problem.
+\newblock {\em International Journal of Production Economics}, 177:66 -- 76,
+  2016.
+
+\bibitem{IRP_Hewitt}
+Mike Hewitt, George Nemhauser, Martin Savelsbergh, and Jin-Hwa Song.
+\newblock A branch-and-price guided search approach to maritime inventory
+  routing.
+\newblock {\em Computers and Operations Research}, 40:1410–1419, 05 2013.
+
+\bibitem{plateforme}
+Labex IMobS3.
+\newblock {Plateformes Labex IMobS3.}
+\newblock
+  \url{http://www.imobs3.uca.fr/index.php/fr/menu-valorisation/plateformes}.
+
+\bibitem{article-Irani-Algorithmic}
+Sandy Irani and Kirk Pruhs.
+\newblock Algorithmic problems in power management. sigact news, 36(2), 63-76.
+\newblock {\em SIGACT News}, 36:63--76, 06 2005.
+
+\bibitem{EVRP_Surendra_2020}
+Surendra~Reddy Kancharla and Gitakrishnan Ramadurai.
+\newblock Electric vehicle routing problem with non-linear charging and
+  load-dependent discharging.
+\newblock {\em Expert Systems with Applications}, 160:113714, 2020.
+
+\bibitem{article_GVRP10}
+{\.{I}}mdat Kara, Bahar~Y. Kara, and M.~Kadri Yetis.
+\newblock Energy minimizing vehicle routing problem.
+\newblock In Andreas Dress, Yinfeng Xu, and Binhai Zhu, editors, {\em
+  Combinatorial Optimization and Applications}, pages 62--71, Berlin,
+  Heidelberg, 2007. Springer Berlin Heidelberg.
+
+\bibitem{PRP_Panagiotis_2020}
+Panagiotis Karakostas, Angelo Sifaleras, and Michael~C. Georgiadis.
+\newblock Adaptive variable neighborhood search solution methods for the fleet
+  size and mix pollution location-inventory-routing problem.
+\newblock {\em Expert Systems with Applications}, 153:113444, 2020.
+
+\bibitem{karp1967finite}
+Richard~M Karp and Michael Held.
+\newblock Finite-state processes and dynamic programming.
+\newblock {\em SIAM Journal on Applied Mathematics}, 15(3):693--718, 1967.
+
+\bibitem{article_GVRP2}
+Çağrı Koç, Ola Jabali, Jorge Mendoza, and Gilbert Laporte.
+\newblock The electric vehicle routing problem with shared charging stations.
+\newblock {\em International Transactions in Operational Research}, 26, 11
+  2018.
+
+\bibitem{article_GVRP11}
+Çağrı Koç and Ismail Karaoglan.
+\newblock The green vehicle routing problem: A heuristic based exact solution
+  approach.
+\newblock {\em Applied Soft Computing}, 39:154--164, 03 2016.
+
+\bibitem{PRP_Ko_2014}
+{\c C}ağri Ko{\c c}, Tolga Bekta{\c s}, Ola Jabali, and Gilbert Laporte.
+\newblock The fleet size and mix pollution-routing problem.
+\newblock {\em Transportation Research Part B: Methodological}, 70:239--254,
+  December 2014.
+
+\bibitem{RePEc:inm:oropre:v:35:y:1987:i:2:p:266-273}
+A.~W.~J. Kolen, A.~H. G.~Rinnooy Kan, and H.~W. J.~M. Trienekens.
+\newblock Vehicle routing with time windows.
+\newblock {\em Operations Research}, 35(2):266--273, 1987.
+
+\bibitem{PPP_Kuttner_2009}
+R.~Küttner and J.~Majak.
+\newblock Multistage optimisation strategy for solving production planning
+  problems.
+\newblock {\em IFAC Proceedings Volumes}, 42(2):332 -- 337, 2009.
+\newblock 14th IFAC Workshop on Control Applications of Optimization.
+
+\bibitem{article_GVRP13}
+Yiyo Kuo.
+\newblock Using simulated annealing to minimize fuel consumption for the
+  time-dependent vehicle routing problem.
+\newblock {\em Computers and Industrial Engineering}, 59:157--165, 08 2010.
+
+\bibitem{EVRP_Kexing_2020}
+Kexing Lai, Tao Chen, and Balasubramaniam Natarajan.
+\newblock Optimal scheduling of electric vehicles car-sharing service with
+  multi-temporal and multi-task operation.
+\newblock {\em Energy}, 204:117929, 2020.
+
+\bibitem{article_HVRP2}
+Antti Lajunen.
+\newblock Energy consumption and cost-benefit analysis of hybrid and electric
+  city buses.
+\newblock {\em Transportation Research Part C: Emerging Technologies},
+  38:1–15, 01 2014.
+
+\bibitem{PPP_Yan_2009}
+Yan-Fei Lan, Yan-Kui Liu, and Gao-Ji Sun.
+\newblock Modeling fuzzy multi-period production planning and sourcing problem
+  with credibility service levels.
+\newblock {\em Journal of Computational and Applied Mathematics}, 231(1):208 --
+  221, 2009.
+
+\bibitem{PPP_Yanfei_2010}
+Yanfei Lan, Yankui Liu, and Gaoji Sun.
+\newblock An approximation-based approach for fuzzy multi-period production
+  planning problem with credibility objective.
+\newblock {\em Applied Mathematical Modelling}, 34(11):3202 -- 3215, 2010.
+
+\bibitem{PPP_Jingran_2019}
+Jingran Liang, Yuyan Wang, Zhi-Hai Zhang, and Yiqi Sun.
+\newblock Energy efficient production planning and scheduling problem with
+  processing technology selection.
+\newblock {\em Computers and Industrial Engineering}, 132:260 -- 270, 2019.
+
+\bibitem{Licht2008}
+Stuart Licht.
+\newblock {\em Thermochemical and Thermal/Photo Hybrid Solar Water Splitting},
+  pages 87--121.
+\newblock Springer New York, New York, NY, 2008.
+
+\bibitem{article_GVRP16}
+Canhong Lin, K.L. Choy, G.T.s Ho, Sai-Ho Chung, and H.~Lam.
+\newblock Survey of green vehicle routing problem: Past and future trends.
+\newblock {\em Expert Systems with Applications}, 41:1118–1138, 03 2014.
+
+\bibitem{article_synchro3}
+Ran LIU, Yangyi TAO, and Xiaolei Xie.
+\newblock An adaptive large neighborhood search heuristic for the vehicle
+  routing problem with time windows and synchronized visits.
+\newblock {\em Computers and Operations Research}, 101, 08 2018.
+
+\bibitem{EVRP_Ji_2020}
+Ji~Lu, Yuning Chen, Jin-Kao Hao, and Renjie He.
+\newblock The time-dependent electric vehicle routing problem: Model and
+  solution.
+\newblock {\em Expert Systems with Applications}, 161:113593, 2020.
+
+\bibitem{article_HVRP1}
+Simona Mancini.
+\newblock The hybrid vehicle routing problem.
+\newblock {\em Transportation Research Part C: Emerging Technologies},
+  78:1--12, 05 2017.
+
+\bibitem{article_GVRP9}
+Marcos Raylan~Sousa Matos, Yuri Frota, and Luiz~Satoru Ochi.
+\newblock Green vehicle routing and scheduling problem with split delivery.
+\newblock {\em Electronic Notes in Discrete Mathematics}, 69:13 -- 20, 2018.
+\newblock Joint EURO/ALIO International Conference 2018 on Applied
+  Combinatorial Optimization (EURO/ALIO 2018).
+
+\bibitem{mcculloch43a}
+Warren Mcculloch and Walter Pitts.
+\newblock A logical calculus of ideas immanent in nervous activity.
+\newblock {\em Bulletin of Mathematical Biophysics}, 5:127--147, 1943.
+
+\bibitem{PPP_Esmaeil_2018}
+Esmaeil Mehdizadeh, Seyed Taghi~Akhavan Niaki, and Mojtaba Hemati.
+\newblock A bi-objective aggregate production planning problem with learning
+  effect and machine deterioration: Modeling and solution.
+\newblock {\em Computers and Operations Research}, 91:21 -- 36, 2018.
+
+\bibitem{mitten1964composition}
+LG~Mitten.
+\newblock Composition principles for synthesis of optimal multistage processes.
+\newblock {\em Operations Research}, 12(4):610--619, 1964.
+
+\bibitem{article_prod2}
+Joon-Yung Moon and Jin-Woo Park.
+\newblock Smart production scheduling with time-dependent and machine-dependent
+  electricity cost by considering distributed energy resources and energy
+  storage.
+\newblock {\em International Journal of Production Research}, 52:18, 12 2013.
+
+\bibitem{article_prod1}
+Joon-Yung Moon, Kitae Shin, and Jinwoo Park.
+\newblock Optimization of production scheduling with time-dependent and
+  machine-dependent electricity cost for industrial energy efficiency.
+\newblock {\em The International Journal of Advanced Manufacturing Technology},
+  68(1):523--535, Sep 2013.
+
+\bibitem{article_prod3}
+Haouassi Mustapha, Chloé Desdouits, Rodolphe Giroudeau, and Claude Pape.
+\newblock Production scheduling with a piecewise-linear energy cost function.
+\newblock pages 1--8, 12 2016.
+
+\bibitem{nemhauser1966introduction}
+George~L Nemhauser.
+\newblock Introduction to dynamic programming.
+\newblock 1966.
+
+\bibitem{article_GVRP14}
+Nur Normasari, Vincent Yu, Candra Bachtiyar, and Sukoyo.
+\newblock A simulated annealing heuristic for the capacitated green vehicle
+  routing problem.
+\newblock {\em Mathematical Problems in Engineering}, 2019:1--18, 01 2019.
+
+\bibitem{inproceedings-Baptiste-Modeles}
+F.Sourd P.Baptiste, E.Neron.
+\newblock Modèles et algorithmes en ordonnancement.
+\newblock pages 198--203, 2004.
+
+\bibitem{article_prod4}
+Agnes Pechmann and Ilka Sch{\"o}ler.
+\newblock Optimizing energy costs by intelligent production scheduling.
+\newblock In J{\"u}rgen Hesselbach and Christoph Herrmann, editors, {\em
+  Glocalized Solutions for Sustainability in Manufacturing}, pages 293--298,
+  Berlin, Heidelberg, 2011. Springer Berlin Heidelberg.
+
+\bibitem{PRP_Rui_2020}
+Rui Qiu, Jiuping Xu, Ruimin Ke, Ziqiang Zeng, and Yinhai Wang.
+\newblock Carbon pricing initiatives-based bi-level pollution routing problem.
+\newblock {\em European Journal of Operational Research}, 286(1):203 -- 217,
+  2020.
+
+\bibitem{quilliot:hal-01366540}
+Alain Quilliot and Philippe Chr{\'e}tienne.
+\newblock {Homogeneously non-idling schedules of unit-time jobs on identical
+  parallel machines}.
+\newblock {\em {Discrete Applied Mathematics}}, 161:1586--1597, July 2013.
+
+\bibitem{article-Homogeneously-alain}
+Alain Quilliot and Philippe Chrétienne.
+\newblock Homogeneously non-idling schedules of unit-time jobs on identical
+  parallel machines.
+\newblock {\em Discrete Applied Mathematics}, 161:1586–1597, 07 2013.
+
+\bibitem{article_Ropke}
+Stefan Ropke and David Pisinger.
+\newblock An adaptive large neighborhood search heuristic for the pickup and
+  delivery problem with time windows.
+\newblock {\em Transportation Science}, 40:455--472, 11 2006.
+
+\bibitem{article_GVRP4}
+Martin Sachenbacher, Martin Leucker, Andreas Artmeier, and Julian Haselmayr.
+\newblock Efficient energy-optimal routing for electric vehicles.
+\newblock In {\em AAAI}, 2011.
+
+\bibitem{Sakar84}
+M.~Sakarovitch.
+\newblock {\em Optimisation combinatoire, programmation discr\`ete}, volume~2.
+\newblock Hermann, 1984.
+
+\bibitem{IRP_Edcarllos}
+Edcarllos Santos, Luiz~Satoru Ochi, Luidi Simonetti, and Pedro~Henrique
+  González.
+\newblock A hybrid heuristic based on iterated local search for multivehicle
+  inventory routing problem.
+\newblock {\em Electronic Notes in Discrete Mathematics}, 52:197 -- 204, 2016.
+\newblock INOC 2015 – 7th International Network Optimization Conference.
+
+\bibitem{article_RVRP1}
+Michael Schneider, Andreas Stenger, and Dominik Goeke.
+\newblock The electric vehicle-routing problem with time windows and recharging
+  stations.
+\newblock {\em Transportation Science}, 48:500--520, 03 2014.
+
+\bibitem{article_Shaw}
+Paul Shaw.
+\newblock A new local search algorithm providing high quality solutions to
+  vehicle routing problems.
+\newblock 09 1997.
+
+\bibitem{Energy-Efficient-Albers-Susanne}
+Albers Susanne.
+\newblock Energy-efficient algorithms.
+\newblock {\em Commun. ACM}, 53:86--96, 05 2010.
+
+\bibitem{PPP_Lixin_2012}
+Lixin Tang, Ping Che, and Jiyin Liu.
+\newblock A stochastic production planning problem with nonlinear cost.
+\newblock {\em Computers and Operations Research}, 39(9):1977 -- 1987, 2012.
+
+\bibitem{PRP_Erfan_2020}
+Erfan~Babaee Tirkolaee, Alireza Goli, Amin Faridnia, Mehdi Soltani, and
+  Gerhard-Wilhelm Weber.
+\newblock Multi-objective optimization for the reliable pollution-routing
+  problem with cross-dock selection using pareto-based algorithms.
+\newblock {\em Journal of Cleaner Production}, 276:122927, 2020.
+
+\bibitem{PPP_Nicolas_2019}
+Nicolás Vanzetti, Diego Broz, Jorge~M. Montagna, and Gabriela Corsano.
+\newblock Integrated approach for the bucking and production planning problems
+  in forest industry.
+\newblock {\em Computers and Chemical Engineering}, 125:155 -- 163, 2019.
+
+\bibitem{article_HVRP4}
+Rashid Waraich, Matthias Galus, Christoph Dobler, Michael Balmer, Göran
+  Andersson, and Kay Axhausen.
+\newblock Plug-in hybrid electric vehicles and smart grid: Investigations based
+  on a micro simulation.
+\newblock {\em Transportation Research Part C Emerging Technologies}, 28, 06
+  2014.
+
+\bibitem{wilde1967foundations}
+Douglass~J Wilde and Charles~S Beightler.
+\newblock Foundations of optimization.
+\newblock 1967.
+
+\bibitem{Xiao_heterogeneous_2016}
+Yiyong Xiao and Abdullah Konak.
+\newblock {The heterogeneous green vehicle routing and scheduling problem with
+  time-varying traffic congestion}.
+\newblock {\em Transportation Research Part E: Logistics and Transportation
+  Review}, 88(C):146--166, 2016.
+
+\bibitem{PRP_Yiyong_2020}
+Yiyong Xiao, Xiaorong Zuo, Jiaoying Huang, Abdullah Konak, and Yuchun Xu.
+\newblock The continuous pollution routing problem.
+\newblock {\em Applied Mathematics and Computation}, page 125072, 2020.
+
+\bibitem{article_GVRP15}
+Yiyong Xiao, Xiaorong Zuo, Ikou Kaku, Shenghan Zhou, and Xing Pan.
+\newblock Development of energy consumption optimization model for the electric
+  vehicle routing problem with time windows.
+\newblock {\em Journal of Cleaner Production}, 225, 04 2019.
+
+\bibitem{PPP_Guisen_2020}
+Guisen Xue and O.~Felix Offodile.
+\newblock Integrated optimization of dynamic cell formation and hierarchical
+  production planning problems.
+\newblock {\em Computers and Industrial Engineering}, 139:106155, 2020.
+
+\bibitem{article_HVRP5}
+Vincent Yu, Perwira Redi, Yosi Agustina, and Oktaviyanto Wibowo.
+\newblock A simulated annealing heuristic for the hybrid vehicle routing
+  problem.
+\newblock {\em Applied Soft Computing}, 53, 12 2016.
+
+\bibitem{EVRP_Shuai_2020}
+Shuai Zhang, Mingzhou Chen, Wenyu Zhang, and Xiaoyu Zhuang.
+\newblock Fuzzy optimization model for electric vehicle routing problem with
+  time windows and recharging stations.
+\newblock {\em Expert Systems with Applications}, 145:113123, 2020.
+
+\bibitem{article_GVRP1}
+Shuai Zhang, Yuvraj Gajpal, S.~Appadoo, and Mohamed Abdulkader.
+\newblock Electric vehicle routing problem with recharging stations for
+  minimizing energy consumption.
+\newblock {\em International Journal of Production Economics}, 203, 07 2018.
+
+\bibitem{PPP_Hui_2019}
+Hui Zhao, Edward Huang, Runliang Dou, and Kan Wu.
+\newblock A multi-objective production planning problem with the consideration
+  of time and cost in clinical trials.
+\newblock {\em Expert Systems with Applications}, 124:25 -- 38, 2019.
+
+\bibitem{article_HVRP3}
+Lu~Zhen, Ziheng Xu, Chengle Ma, and Liyang Xiao.
+\newblock Hybrid electric vehicle routing problem with mode selection.
+\newblock {\em International Journal of Production Research}, pages 1--15, 03
+  2019.
+
+\bibitem{Ferani_2020}
+Ferani~E. Zulvia, R.J. Kuo, and Dwiyanti~Y. Nugroho.
+\newblock A many-objective gradient evolution algorithm for solving a green
+  vehicle routing problem with time windows and time dependency for perishable
+  products.
+\newblock {\em Journal of Cleaner Production}, 242:118428, 2020.
+
+\end{thebibliography}

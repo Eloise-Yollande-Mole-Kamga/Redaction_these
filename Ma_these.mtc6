@@ -1,0 +1,24 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Introduction}{\reset@font\mtcSfont 46}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Généralités sur la modélisation}{\reset@font\mtcSfont 46}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}Généralités sur la programmation linéaire en nombres entiers}{\reset@font\mtcSSfont 46}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}Généralités sur la technique de \textit {Branch-And-Cut (B\&C)}}{\reset@font\mtcSSfont 47}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Programmation dynamique}{\reset@font\mtcSfont 47}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Cadre général}{\reset@font\mtcSSfont 48}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Exemples Simples}{\reset@font\mtcSSfont 55}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Le problème du sac à dos : Principe des FPTAS}{\reset@font\mtcSSSfont 55}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Le \textit {Split}}{\reset@font\mtcSSSfont 58}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.3}Le Cas Stochastique}{\reset@font\mtcSSfont 58}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Un Premier Niveau de Difficulté : Intégrer dans le Modèle le Comportement du Système Réel face aux aléas}{\reset@font\mtcSSSfont 59}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Un deuxième Niveau de Difficulté : La Problématique des Corrélations}{\reset@font\mtcSSSfont 60}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.4}Le Cas Cyclique}{\reset@font\mtcSSfont 61}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Apprentissage automatique}{\reset@font\mtcSfont 63}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}La problématique générale de l'apprentissage}{\reset@font\mtcSSfont 64}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Les réseaux de neurones artificiels}{\reset@font\mtcSSfont 64}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Description générale et représentation graphique d'un réseau de neurones}{\reset@font\mtcSSSfont 65}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Description du fonctionnement des réseaux de neurones}{\reset@font\mtcSSSfont 67}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Difficultés liées à la mise en œuvre de réseau de neurones}{\reset@font\mtcSSSfont 67}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.3}L'API Keras de Tensorflow Keras}{\reset@font\mtcSSfont 68}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Les couches et les poids dans tf.keras}{\reset@font\mtcSSSfont 68}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Relier deux couches de neurones de manière partielle}{\reset@font\mtcSSSfont 72}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fixer des poids dépendant des instances}{\reset@font\mtcSSSfont 75}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Conclusion}{\reset@font\mtcSfont 76}}

@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Ma_these.aux
+The style file: plain.bst
+Database file #1: bibliographie_These.bib
+Repeated entry---line 1347 of file bibliographie_These.bib
+ : @book{Sakar84
+ :              ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in inproceedings-Baptiste-Scheduling
+Warning--empty publisher in Grimes
+Warning--empty booktitle in article_GVRP5
+Warning--can't use both author and editor fields in Licht2008
+Warning--empty booktitle in article_prod3
+Warning--empty journal in nemhauser1966introduction
+Warning--empty booktitle in inproceedings-Baptiste-Modeles
+Warning--empty journal in article_Shaw
+Warning--empty journal in wilde1967foundations
+(There was 1 error message)

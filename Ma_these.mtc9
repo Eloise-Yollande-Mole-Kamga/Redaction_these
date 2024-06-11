@@ -1,0 +1,48 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}Motivations}{\reset@font\mtcSfont 160}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Le problème du véhicule : \textit {Vehicle-Driver} (VD)}{\reset@font\mtcSfont 160}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Le modèle VD}{\reset@font\mtcSSfont 161}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Complexité du modèle VD avec $L_j$ fixe}{\reset@font\mtcSSfont 163}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.3}Complexité du modèle VD avec $L_j$ variable}{\reset@font\mtcSSfont 163}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Le problème de production : \textit {Production-Manager} (PM)}{\reset@font\mtcSfont 163}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Le modèle PM}{\reset@font\mtcSSfont 163}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}Complexité du modèle PM}{\reset@font\mtcSSfont 165}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}L'algorithme de programmation dynamique DPS\_VD}{\reset@font\mtcSfont 165}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.1}Espace temps et états au sens de la programmation dynamique}{\reset@font\mtcSSfont 166}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Etat initial et Etats finaux}{\reset@font\mtcSSSfont 166}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.2}Variable de décision}{\reset@font\mtcSSfont 166}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.3}Pré-conditions, transitions et coûts liés aux décisions et aux transitions}{\reset@font\mtcSSfont 167}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.4}Mise en œuvre algorithmique du DPS\_VD}{\reset@font\mtcSSfont 167}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Equations de Bellman}{\reset@font\mtcSSSfont 167}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Stratégie d'exploration}{\reset@font\mtcSSSfont 167}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Algorithme DPS\_VD}{\reset@font\mtcSSSfont 167}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.5}Calcul de la stratégie de recharge primaire et de la stratégie de recharge réduite}{\reset@font\mtcSSfont 168}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.6}Calcul des bornes inférieures du temps et de l'énergie du DPS\_SMEPC}{\reset@font\mtcSSfont 171}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.5}L'algorithme de programmation dynamique DPS\_PM}{\reset@font\mtcSfont 172}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.5.1}Espace temps et états au sens de la programmation dynamique}{\reset@font\mtcSSfont 172}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Etat initial et Etats finaux}{\reset@font\mtcSSSfont 173}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.5.2}Variables de décision}{\reset@font\mtcSSfont 173}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.5.3}Pré-conditions, transitions et coûts liés aux décisions et aux transitions}{\reset@font\mtcSSfont 173}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.5.4}Mise en œuvre algorithmique du DPS\_PM}{\reset@font\mtcSSfont 174}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Equations de Bellman }{\reset@font\mtcSSSfont 175}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Stratégie d'exploration }{\reset@font\mtcSSSfont 175}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Algorithme DPS\_PM}{\reset@font\mtcSSSfont 175}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.5.5}Mécanismes de filtrage du DPS\_PM}{\reset@font\mtcSSfont 175}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Mécanismes de filtrage par arrondi}{\reset@font\mtcSSSfont 178}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Mécanismes de filtrage par relations de dominance}{\reset@font\mtcSSSfont 178}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Mécanismes de filtrage logique}{\reset@font\mtcSSSfont 178}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Mécanismes de filtrage par estimation optimiste}{\reset@font\mtcSSSfont 178}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Mécanismes de filtrage heuristique}{\reset@font\mtcSSSfont 181}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.6}Collaboration Demandeur/Producteur pour SMEPC : le schéma Pipe-line VD\_PM}{\reset@font\mtcSfont 181}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.7}Expérimentations numériques}{\reset@font\mtcSfont 185}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.7.1}Objectifs et contexte technique}{\reset@font\mtcSSfont 185}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.7.2}Instances}{\reset@font\mtcSSfont 185}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.7.3}Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC}{\reset@font\mtcSSfont 187}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC : les instances du paquet INST\_VAR}{\reset@font\mtcSSSfont 189}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Comparaison de l'heuristique Pipe-line VD\_PM et du DPS\_SMEPC : les instances du paquet INST\_CTE}{\reset@font\mtcSSSfont 191}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.7.4}Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC}{\reset@font\mtcSSfont 194}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC : les instances du paquet INST\_VAR}{\reset@font\mtcSSSfont 196}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Utilisation de l'algorithme \textbf {Pipe-line VD\_PM} comme borne supérieure du DPS\_SMEPC : les instances du paquet INST\_CTE}{\reset@font\mtcSSSfont 197}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.8}Conclusion}{\reset@font\mtcSfont 198}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.9}Annexes}{\reset@font\mtcSfont 199}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.9.1}Démonstration du théorème \ref {vd_ndhard}}{\reset@font\mtcSSfont 199}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.9.2}Démonstration du théorème \ref {VD_polynomial}}{\reset@font\mtcSSfont 201}}

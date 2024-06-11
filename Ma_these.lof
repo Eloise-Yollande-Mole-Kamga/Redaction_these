@@ -1,0 +1,104 @@
+\babel@toc {french}{}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction générale}{16}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Plateforme PAVIN « Véhicule Urbains »}}{19}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Plateforme PAVIN VMN « Véhicule en Milieu Naturel »}}{19}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Plateforme PAVIN BP « Brouillard et Pluie »}}{19}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Une voiture hybride}}{22}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Première station à hydrogène de Clermont-Ferrand}}{24}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{État de l'art du problème SMEPC}{28}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Problèmes incluant tournée de véhicules et gestion de leurs alimentations}}{30}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Etat de l'art sur les méthodes }{45}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arcs associés aux Transitions}}{51}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure Générale du Réseau d'État "Production" }}{51}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Les nœuds du Réseau des Etats du problème du sac à dos. }}{56}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Regroupement des états. }}{57}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Un arc-transition non déterministe. }}{59}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Graphe des Etats Cycliques. }}{62}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Une couche de 5 neurones complétement reliée à une couche de 3 neurones. }}{65}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Une couche de 5 neurones partiellement reliée à une couche de 3 neurones. }}{65}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Représentation des poids et du biais. }}{66}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Calcul des valeurs d'entrée et de sortie d'un neurone. }}{66}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Poids et biais entre deux couches de neurones non unitaires. }}{67}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Une matrice des poids $W$ et un vecteur des biais $B$. }}{67}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Affichage des poids.}}{69}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Représentation graphique des poids associés à la Figure (\ref {RN_exemple_poids}). }}{69}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Représentation d'un réseau avec 2 couches partiellement reliées.}}{72}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Représentation du réseau de la figure (\ref {RN_2_couches_partielles}) en utilisant exclusivement des layers tf.keras Dense et Concatenate.}}{73}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Le réseau de la figure (\ref {RN_partial_connect}) représenté avec des layers Dense et Concatenate.}}{74}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Exemple de réseau dans lequel des poids fixes et dépendant de l'instance interviennent.}}{75}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Figure (\ref {RN_poids_fixes}) reformulé avec des layers Dense et Multiply.}}{76}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Programmation linéaire en nombres entiers mixtes de SMEPC}{77}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Le dépôt et la micro-usine}}{79}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Notations concernant les valeurs de temps et d'énergie}}{80}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Une tournée de véhicule}}{80}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Intervalle de temps correspondant à une période}}{81}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Une stratégie de production}}{81}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Coûts de production}}{82}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Une solution possible d'une instance de SMEPC}}{83}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Décomposition du prolème SMEPC}}{84}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Plan contenant les stations}}{94}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Représentation graphique du CPU et du gap des tableaux (\ref {tab:frac1}) et (\ref {tab:frac2})}}{107}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Représentation graphique du CPU et du gap des tableaux (\ref {tab:frac3}) et (\ref {tab:frac3})}}{107}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Représentation graphique du CPU et du gap des tableaux (\ref {tab:ChSymStc}) et (\ref {tab:champEC})}}{111}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Représentation graphique du CPU et du gap des tableaux (\ref {tab:ChSymStc1}) et (\ref {tab:champEC1})}}{111}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Une tournée du véhicule d'une instance de SMEPC}}{114}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Schéma de programmation dynamique pour résoudre SMEPC}{115}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Positionnements relatifs du véhicule par rapport à une station}}{118}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Synchonisation du problème VD et du problème PM}}{126}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Stratégie de génération des états du DPS\_SMEPC}}{127}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Impact des mécanismes de filtrage sur le DPS\_SMEPC}}{131}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Une instance}}{141}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Le graphe G}}{141}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Les données de la partie production de l'instance A}}{143}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Les données de la partie recharge de l'instance A}}{143}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces La solution de l'instance A}}{144}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Les données de la partie production de l'instance B}}{145}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Les données de la partie recharge de l'instance B}}{145}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces La solution de l'instance B}}{146}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {Comparaison_DPS-SMEPC_greedd})}}{149}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {Comparaison_DPS-SMEPC_greed2})}}{150}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {power_filter})}}{153}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {power_filter2})}}{154}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Schéma collaboratif pour résoudre SMEPC}{158}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schéma du Pipe-line VD\_PM}}{183}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces La solution de l'instance A}}{186}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces La solution de l'instance B}}{187}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {Comparaison_DPS-SMEPC_greed22})}}{190}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {Comparaison_DPS-SMEPC_greed})}}{192}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Représentation graphique du CPU et du gap du tableau (\ref {Comparaison_nombre_state2})}}{193}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Le sous-graphe Useful VD\_Subgraph}}{203}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Estimation des coûts de production par apprentissage}{204}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Réseau SIMPLE\_TYPE}}{211}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Réseau SIMPLE\_PERIODE}}{211}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Réseau MIXTE}}{214}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Réseau INDIC\_TEMPS prédisant le numéro de période de la dernière recharge}}{221}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Réseau de neurones prédisant le coût $Cost_A$}}{224}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Réseau de neurones prédisant le coût $Cost_P$}}{224}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Réseau INDIC\_COUT prédisant le coût $COST$}}{225}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Coût moyen de production par ordre croissant et regroupé par paquet de 100 instances}}{227}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Coût fixe moyen et coût variable moyen de production regroupé par paquet de 100 instances}}{228}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Moyenne du nombre de stations regroupé par paquet de 100 instances}}{228}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Moyenne du nombre de recharges regroupé par paquet de 100 instances}}{229}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Évolution du temps maximal moyen regroupé par paquet de 100 instances}}{230}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Capacité moyenne du réservoir et de la citerne regroupé par paquet de 100 instances}}{230}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Le gap du réseau SIMPLE\_TYPE}}{234}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Résultats du réseau de neurones SIMPLE\_TYPE}}{234}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Le gap du réseau SIMPLE\_PERIODE}}{235}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Résultats du réseau SIMPLE\_PERIODE}}{236}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Le gap du réseau MIXTE\_COUT}}{237}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Résultats du réseau MIXTE\_COUT}}{237}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Le gap du réseau INDIC\_COUT}}{238}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Résultats du réseau de neurones INDIC\_COUT}}{239}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Le gap du réseau MIXTE\_TEMPS}}{240}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Résultats du réseau MIXTE\_TEMPS}}{240}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Le gap du réseau INDIC\_TEMPS}}{241}%
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Résultats du réseau de neurones INDIC\_TEMPS}}{242}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion générale}{244}%

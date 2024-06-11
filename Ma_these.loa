@@ -1,0 +1,17 @@
+\contentsline {algorithm}{\numberline {1}{\ignorespaces Backward\_DPS }}{53}%
+\contentsline {algorithm}{\numberline {2}{\ignorespaces DPS\_SMEPC}}{128}%
+\contentsline {algorithm}{\numberline {3}{\ignorespaces DPS\_SMEPC(K)}}{130}%
+\contentsline {algorithm}{\numberline {4}{\ignorespaces Estimation-énergie(j)}}{133}%
+\contentsline {algorithm}{\numberline {5}{\ignorespaces Cout minimal production}}{136}%
+\contentsline {algorithm}{\numberline {6}{\ignorespaces Greedy\_SMEPC}}{138}%
+\contentsline {algorithm}{\numberline {7}{\ignorespaces Search\_BSUP}}{147}%
+\contentsline {algorithm}{\numberline {8}{\ignorespaces Veh\_Bellman\_Update}}{168}%
+\contentsline {algorithm}{\numberline {9}{\ignorespaces DPS\_VD}}{169}%
+\contentsline {algorithm}{\numberline {10}{\ignorespaces Stratégie-de-recharge-primaire }}{170}%
+\contentsline {algorithm}{\numberline {11}{\ignorespaces Stratégie-de-recharge-réduite }}{171}%
+\contentsline {algorithm}{\numberline {12}{\ignorespaces Prod\_Bellman\_Update}}{176}%
+\contentsline {algorithm}{\numberline {13}{\ignorespaces DPS\_PM}}{177}%
+\contentsline {algorithm}{\numberline {14}{\ignorespaces Greedy\_PM}}{180}%
+\contentsline {algorithm}{\numberline {15}{\ignorespaces Filtered\_DPS\_PM}}{182}%
+\contentsline {algorithm}{\numberline {16}{\ignorespaces Pipe-line VD\_PM}}{184}%
+\contentsline {algorithm}{\numberline {17}{\ignorespaces T\_Reconstruction}}{184}%
